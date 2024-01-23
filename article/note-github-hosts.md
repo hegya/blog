@@ -1,6 +1,6 @@
 # 修改hosts，方便直接访问github
 
-来源[https://github.com/ineo6/hosts](https://github.com/ineo6/hosts)
+来源https://github.com/ineo6/hosts
 
 复制最新hosts
 > https://github.com/ineo6/hosts/blob/master/hosts

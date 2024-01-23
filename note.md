@@ -1,6 +1,5 @@
 # 笔记目录
 
 - 折腾
-  - 曹操
-
-[20231220]: ./article/poem-20231220.md
+  - [修改Github hosts免fq](./article/note-github-hosts.md)
+  - [常用油猴脚本](./article/note-tampermonkey.md)

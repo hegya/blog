@@ -6,4 +6,4 @@
   - [手动安装 uBlock](./article/note-ublock-firefox.md)
 
 - 有意思
-  - [著名企业简称全称](./article/note-famous-enterprise.md)
+  - 123

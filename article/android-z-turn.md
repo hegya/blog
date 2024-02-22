@@ -10,4 +10,6 @@
   > adb shell pm disable-user com.android.quicksearchbox
 ## 去除信号感叹号
   > adb shell "settings put global captive_portal_https_url https://connect.rom.miui.com/generate_204"
+## 安装应用
+  > adb install app.apk
 

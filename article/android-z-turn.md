@@ -6,6 +6,8 @@
   > fastboot flash recovery recovery.img
 ## fastboot 重启进 recovery
   > fastboot boot recovery.img
+## 侧载刷机包
+  > adb -d sideload filename.zip
 ## 停用 bloatware
   > adb shell pm disable-user com.android.quicksearchbox
 ## 去除信号感叹号

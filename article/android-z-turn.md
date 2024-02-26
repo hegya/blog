@@ -37,3 +37,5 @@
   > [坚果云](https://sj.qq.com/appdetail/nutstore.android?from_wxz=1)
 
   > [bilibili](https://com-bilibili-app-in.cn.uptodown.com/android)
+
+  > [微信读书](https://weread.qq.com/web/redirect?from=NavBar)

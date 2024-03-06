@@ -9,6 +9,7 @@
   - [常用油猴脚本](./article/note-tampermonkey.md)
   - [手动安装 uBlock](./article/note-ublock-firefox.md)
   - [中小学教材下载](./article/note-textbook-download.md)
+  - [Windows11 字体替换](https://blog.dsrkafuu.net/post/2020/extract-sf-pingfang/)
 
 - 有意思
   - 123

@@ -2,7 +2,7 @@
 
 - 折腾
 
-  - [Android 手机折腾](./article/android-z-turn.md)
+  - [Android 手机折腾](./article/note-android-z-turn.md)
   - [Ubuntu 折腾](./article/note-ubuntu-z-turn.md)
   - [Windows11 折腾](./article/note-windows-11-z-turn.md)
   - [修改 hosts 免 fq 访问 Github](./article/note-github-hosts.md)

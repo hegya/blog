@@ -48,3 +48,12 @@ $\because \frac{1}{\sqrt{2}}=\sin \frac{\pi}{4}=\cos \frac{\pi}{4}$ ，(1式)可
 $\therefore \alpha+\frac{\pi}{4}=2\alpha$ 或 $\alpha+\frac{\pi}{4}=\pi-2\alpha$
 
 $\therefore \alpha=\frac{\pi}{4}$ ，即  $x=\frac{1}{\sin \frac{\pi}{4}}=\sqrt{2}$
+
+## 解方程 $\sqrt{x}-8=\sqrt{x-8}$
+解：原式 $\ge0$ ， $\sqrt{x}\ge8$ ，即 $x\ge64$
+
+原式两边平方，得 $x+64-16\sqrt{x}=x-8$
+
+$\therefore 16\sqrt{x}=72$ ，即 $\sqrt{x}=\frac{72}{16}=\frac{9}{2}<8$
+
+原式无解

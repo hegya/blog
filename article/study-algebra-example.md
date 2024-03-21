@@ -57,3 +57,16 @@ $\therefore \alpha=\frac{\pi}{4}$ ，即  $x=\frac{1}{\sin \frac{\pi}{4}}=\sqrt{
 $\therefore 16\sqrt{x}=72$ ，即 $\sqrt{x}=\frac{72}{16}=\frac{9}{2}<8$
 
 原式无解
+
+## 解方程 $x+6=(x^2-6)^2$
+解：令 $a=x^2-6$ (1式)，则 $a^2=x+6$ 。两式相加得 $a^2+a=x^2+a$ ，即 $a^2-x^2+a-x=0$
+
+$\therefore (a+x)(a-x)+(a-x)=0$
+
+$\therefore (a+x+1)(a-x)=0$
+
+当 $a-x=0$ ，即 $a=x$ ，代入(1)得 $x^2-x-6=0$ ，解得 $x_1=3$ ， $x_2=-2$
+
+当 $a+x+1=0$ ，即 $a=-x-1$ ，代入(1)得 $x^2+x-5=0$ ，解得 $x_3,x_4=\frac{-1\pm\sqrt{21}}{2}$
+
+## 

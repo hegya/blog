@@ -1,3 +1,5 @@
+## adb 下载 https://developer.android.com/tools/releases/platform-tools?hl=zh-cn
+
 ## 重启进 bootloader
   > adb -d reboot bootloader
 ## 列出已连接的设备

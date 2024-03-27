@@ -13,3 +13,5 @@ slmgr /ato
 - 替换系统字体
   - 字体下载 https://blog.dsrkafuu.net/post/2020/extract-sf-pingfang/
   - 替换工具 https://github.com/Tatsu-syo/noMeiryoUI
+
+- 下载最新Visual C++ Redistribution https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version

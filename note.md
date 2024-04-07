@@ -11,4 +11,4 @@
   - [中小学教材下载](./article/note-textbook-download.md)
 
 - 有意思
-  - 123
+  - 书籍杂志 [./article/note-book-magazine.md]

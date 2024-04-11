@@ -14,7 +14,7 @@
     - [书籍杂志下载](./article/note-book-magazine.md)
     - 
 
-- 学习]
+- 学习
   - 代数
     - [公式](./article/study-algebra-formula.md)
     - [例题](./article/study-algebra-example.md)

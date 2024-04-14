@@ -6,5 +6,8 @@
   - [Telegram数字图书馆](https://t.me/TG_book_data)
   - [外滩读书会](https://t.me/readingclubus)
 
-- 网址
+- 网站
+  - [SoBooks](https://sobooks.cc/)
   - [爱悦读](https://www.iyd.wang/)
+  - [大蓝莓](https://www.dalanmei.com/)
+  - [汇书网](https://www.huibooks.com/)

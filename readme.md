@@ -9,6 +9,7 @@
     - [修改 hosts 免 fq 访问 Github](./article/note-github-hosts.md)
     - [常用油猴脚本](./article/note-tampermonkey.md)
     - [手动安装 uBlock](./article/note-ublock-firefox.md)
+    - [正则范例](./article/note-regexp-example.md)
     - [中小学教材下载](./article/note-textbook-download.md)
   - 有意思
     - [书籍杂志下载](./article/note-book-magazine.md)

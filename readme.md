@@ -23,3 +23,6 @@
     - [公式](./article/study-geometry-formula.md)
 
 - [诗抄](./poem.md)
+
+- 文摘
+  - [写在5.12的爱国帖（李承鹏）](./article/digest-512.md)

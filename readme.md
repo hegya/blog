@@ -11,6 +11,7 @@
     - [手动安装 uBlock](./article/note-ublock-firefox.md)
     - [正则范例](./article/note-regexp-example.md)
     - [中小学教材下载](./article/note-textbook-download.md)
+    - [注册表折腾](./article/note-regedit-z-turn.md)
   - 有意思
     - [书籍杂志下载](./article/note-book-magazine.md)
     - 

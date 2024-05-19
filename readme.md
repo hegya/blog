@@ -3,6 +3,7 @@
 - 笔记
   - 折腾
     - [Android 手机折腾](./article/note-android-z-turn.md)
+    - [Google 相关折腾](./article/note-google-z-turn.md)
     - [SQLite 技巧](./article/note-sqlite-howto.md)
     - [Ubuntu 折腾](./article/note-ubuntu-z-turn.md)
     - [Windows11 折腾](./article/note-windows-11-z-turn.md)

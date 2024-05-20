@@ -15,3 +15,8 @@
 等页面全部加载完成，再输入
 
 > window.clearInterval(scroll); console.clear(); urls = \$\$('a'); urls.forEach(function(v,i,a){if (v.id=="video-title"){console.log('\t'+v.title+'\t'+v.href+'\t')}});
+
+## 下载 YouTube 视频
+
+> yt-dlp --list-formats https://www.youtube.com/watch?v=e8EuHV
+> yt-dlp -f 137 https://www.youtube.com/watch?v=e8EuHV

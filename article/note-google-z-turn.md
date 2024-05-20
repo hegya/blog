@@ -19,4 +19,5 @@
 ## 下载 YouTube 视频
 
 > yt-dlp --list-formats https://www.youtube.com/watch?v=e8EuHV
-> yt-dlp -f 137 https://www.youtube.com/watch?v=e8EuHV
+> 
+> yt-dlp -f "bv+ba" --merge-output-format mp4 https://www.youtube.com/watch?v=e8EuHV

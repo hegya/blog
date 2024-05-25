@@ -15,7 +15,7 @@
     - [注册表折腾](./article/note-regedit-z-turn.md)
   - 有意思
     - [书籍杂志下载](./article/note-book-magazine.md)
-    - 
+    - [来自 X 的知识](./article/note-things-from-x.md)
 
 - 学习
   - 代数

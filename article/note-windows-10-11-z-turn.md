@@ -1,4 +1,4 @@
-# Windows11 折腾
+# Windows 10/11 折腾
 
 - 激活 Windows11
 
@@ -15,3 +15,8 @@ slmgr /ato
   - 替换工具 https://github.com/Tatsu-syo/noMeiryoUI
 
 - 下载最新Visual C++ Redistribution https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version
+
+- 修复照片查看器图片发黄
+  - 进入显示器属性，选择“颜色管理”
+  - 在“颜色管理”设备中选择显示器，勾选“使用我对此设备的设置”
+  - 添加“sRGB IEC61966-2.1”，设置为默认配置文件

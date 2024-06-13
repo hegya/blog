@@ -3,14 +3,13 @@
 - 笔记
   - 折腾
     - [Android 手机折腾](./article/note-android-z-turn.md)
-    - [Cloudflare 折腾](./article/note-cloudflare-z-turn.md)
+    - [Cloudflare 折腾](./article/note-z-turn-cloudflare.md)
     - [Google 相关折腾](./article/note-google-z-turn.md)
     - [SQLite 技巧](./article/note-sqlite-howto.md)
     - [Ubuntu 折腾](./article/note-ubuntu-z-turn.md)
     - [Windows 10/11 折腾](./article/note-windows-10-11-z-turn.md)
+    - [浏览器折腾](./article/note-z-turn-browser.md)
     - [修改 hosts 免 fq 访问 Github](./article/note-github-hosts.md)
-    - [常用油猴脚本](./article/note-tampermonkey.md)
-    - [手动安装 uBlock](./article/note-ublock-firefox.md)
     - [正则范例](./article/note-regexp-example.md)
     - [中小学教材下载](./article/note-textbook-download.md)
     - [注册表折腾](./article/note-regedit-z-turn.md)

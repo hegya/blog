@@ -4,9 +4,9 @@
   - 折腾
     - [Android 手机折腾](./article/note-android-z-turn.md)
     - [Cloudflare 折腾](./article/note-z-turn-cloudflare.md)
+    - [Debian / Ubuntu 折腾](./article/note-z-turn-debian-ubuntu.md)
     - [Google 相关折腾](./article/note-google-z-turn.md)
     - [SQLite 技巧](./article/note-sqlite-howto.md)
-    - [Ubuntu 折腾](./article/note-ubuntu-z-turn.md)
     - [Windows 10/11 折腾](./article/note-windows-10-11-z-turn.md)
     - [浏览器折腾](./article/note-z-turn-browser.md)
     - [修改 hosts 免 fq 访问 Github](./article/note-github-hosts.md)

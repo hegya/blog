@@ -4,6 +4,10 @@
 
   > https://paran3xus.github.io/2023/11/28/proxy-for-tg-bot-api-using-cf-worker/
 
+- Workers 架设通用代理
+
+  > https://github.com/ymyuuu/Cloudflare-Workers-Proxy
+
 - Tunnel 内网穿透
 
   > https://sspai.com/post/79278

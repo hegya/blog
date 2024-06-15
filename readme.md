@@ -1,23 +1,24 @@
 # Shahebian
 
 - 笔记
+
   - 折腾
     - [Android 手机 / 电视折腾](./article/note-z-turn-android.md)
     - [Cloudflare 折腾](./article/note-z-turn-cloudflare.md)
     - [Debian / Ubuntu 折腾](./article/note-z-turn-debian-ubuntu.md)
-    - [Google 相关折腾](./article/note-google-z-turn.md)
-    - [SQLite 技巧](./article/note-sqlite-howto.md)
-    - [Windows 10/11 折腾](./article/note-windows-10-11-z-turn.md)
+    - [Google 相关折腾](./article/note-z-turn-google.md)
+    - [SQLite 技巧](./article/note-z-turn-sqlite.md)
+    - [Windows 10/11 折腾](./article/note-z-turn-windows-10-11.md)
     - [浏览器折腾](./article/note-z-turn-browser.md)
     - [修改 hosts 免 fq 访问 Github](./article/note-github-hosts.md)
     - [正则范例](./article/note-regexp-example.md)
-    - [中小学教材下载](./article/note-textbook-download.md)
-    - [注册表折腾](./article/note-regedit-z-turn.md)
   - 有意思
     - [书籍杂志下载](./article/note-book-magazine.md)
     - [来自 X 的知识](./article/note-things-from-x.md)
 
 - 学习
+
+  - [中小学教材下载](./article/note-textbook-download.md)
   - 代数
     - [公式](./article/study-algebra-formula.md)
     - [例题](./article/study-algebra-example.md)
@@ -27,6 +28,7 @@
 - [诗抄](./poem.md)
 
 - 文摘
+
   - 20240520-[赖清德就职中华民国总统演说全文](./article/digest-lai-speech.md)
   - 20240511-[写在5.12的爱国帖（李承鹏）](./article/digest-512.md)
 

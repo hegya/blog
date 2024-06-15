@@ -2,7 +2,7 @@
 
 - 笔记
   - 折腾
-    - [Android 手机折腾](./article/note-android-z-turn.md)
+    - [Android 手机 / 电视折腾](./article/note-z-turn-android.md)
     - [Cloudflare 折腾](./article/note-z-turn-cloudflare.md)
     - [Debian / Ubuntu 折腾](./article/note-z-turn-debian-ubuntu.md)
     - [Google 相关折腾](./article/note-google-z-turn.md)

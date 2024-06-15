@@ -1,4 +1,4 @@
-## Android 折腾
+## Android 系统折腾
 
 - adb 下载 https://developer.android.com/tools/releases/platform-tools?hl=zh-cn
   - 重启进 bootloader
@@ -17,6 +17,8 @@
     > adb shell "settings put global captive_portal_https_url https://connect.rom.miui.com/generate_204"
   - 安装应用
     > adb install app.apk
+  - 连接局域网设备
+    > adb connect 192.168.0.15
 
 - Termux
   - 切换镜像

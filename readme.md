@@ -6,6 +6,7 @@
     - [Android 手机 / 电视折腾](./article/note-z-turn-android.md)
     - [Cloudflare 折腾](./article/note-z-turn-cloudflare.md)
     - [Debian / Ubuntu 折腾](./article/note-z-turn-debian-ubuntu.md)
+    - [Excel 相关折腾](./article/note-z-turn-excel.md)
     - [Google 相关折腾](./article/note-z-turn-google.md)
     - [SQLite 技巧](./article/note-z-turn-sqlite.md)
     - [Windows 10/11 折腾](./article/note-z-turn-windows-10-11.md)

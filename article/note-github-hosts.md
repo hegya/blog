@@ -1,15 +1,11 @@
-# 修改 hosts，方便直接访问 github
+# 以修改 hosts 方式直接访问 github
 
-来源https://github.com/ineo6/hosts
+- hosts 文件来源： https://github.com/ineo6/hosts/blob/master/hosts 或 CDN ：https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts
 
-复制最新 hosts
+- 方式一：修改本机 hosts 文件
 
-> https://github.com/ineo6/hosts/blob/master/hosts
+  - 以管理员身份运行 editplus，修改 C:\Windows\System32\drivers\etc\hosts 文件
 
-以管理员运行 editplus，修改
+  - 用 SwitchHosts 配置远程文件，可自动更新
 
-> C:\Windows\System32\drivers\etc\hosts
-
-刷新 dns 缓存
-
-> ipconfig /flushdns
+- 方式二：在 AdGuardHome - 过滤器 - DNS 黑名单 中添加

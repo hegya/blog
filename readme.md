@@ -12,7 +12,7 @@
     - [Windows 10/11 折腾](./article/note-z-turn-windows-10-11.md)
     - [光猫 / 路由器折腾](./article/note-z-turn-modem-router.md)
     - [浏览器折腾](./article/note-z-turn-browser.md)
-    - [修改 hosts 免 fq 访问 Github](./article/note-github-hosts.md)
+    - [修改 hosts ，直接访问 github](./article/note-github-hosts.md)
     - [正则范例](./article/note-regexp-example.md)
   - 有意思
     - [书籍杂志下载](./article/note-book-magazine.md)

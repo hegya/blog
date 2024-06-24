@@ -7,6 +7,8 @@
 - Workers 架设通用代理
 
   > https://github.com/ymyuuu/Cloudflare-Workers-Proxy
+  
+  > https://github.com/1234567Yang/cf-proxy-ex
 
 - Tunnel 内网穿透
 

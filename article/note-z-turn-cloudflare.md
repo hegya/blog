@@ -4,6 +4,10 @@
 
   > https://paran3xus.github.io/2023/11/28/proxy-for-tg-bot-api-using-cf-worker/
 
+- Workers 反代 Google
+
+  > https://github.com/RaySibay/workers_proxy_for_Google
+
 - Workers 架设通用代理
 
   > https://github.com/ymyuuu/Cloudflare-Workers-Proxy

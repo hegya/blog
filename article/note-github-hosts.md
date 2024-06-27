@@ -1,6 +1,9 @@
 # 修改 hosts ，直接访问 github
 
-- hosts 文件来源： https://github.com/ineo6/hosts/blob/master/hosts 或 CDN ：https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts
+- hosts 文件来源：
+  - https://github.com/ineo6/hosts/blob/master/hosts
+  - 或CDN ：https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts
+  - 或：https://github.com/521xueweihan/GitHub520/blob/main/hosts
 
 - 方式一：修改本机 hosts 文件
 

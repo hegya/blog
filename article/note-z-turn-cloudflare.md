@@ -21,3 +21,7 @@
   > https://blog.yasking.org/a/using-cloudflare-tunnel-service.html
   
   > https://www.evlit.com/66207.html 配置 SSH
+
+- 订阅转换
+
+  > https://blog.misaka.rest/2023/10/20/cf-wkrs-sub-convert/  

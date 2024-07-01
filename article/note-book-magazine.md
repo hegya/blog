@@ -9,5 +9,7 @@
 - 网站
   - [SoBooks](https://sobooks.cc/)
   - [爱悦读](https://www.iyd.wang/)
-  - [大蓝莓](https://www.dalanmei.com/)
   - [汇书网](https://www.huibooks.com/)
+
+- 王炸
+  - site:al.chirmyram.com 搜索

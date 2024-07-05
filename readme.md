@@ -32,5 +32,6 @@
 
 - 文摘
 
+  - 20240704-[2014~2024，仅仅十年（大象公会）](https://chinadigitaltimes.net/chinese/709422.html)
   - 20240520-[赖清德就职中华民国总统演说全文](./article/digest-lai-speech.md)
   - 20240511-[写在5.12的爱国帖（李承鹏）](./article/digest-512.md)

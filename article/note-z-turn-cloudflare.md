@@ -24,4 +24,4 @@
 
 - 订阅转换
 
-  > https://blog.misaka.rest/2023/10/20/cf-wkrs-sub-convert/  
+  > https://xtrojan.vip/blog/cf-wkrs-sub-convert.html

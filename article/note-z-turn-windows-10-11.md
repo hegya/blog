@@ -31,3 +31,7 @@
     ```
     Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
     ```
+
+- 关闭搜索栏广告及隐藏热门搜索推荐
+  - https://www.wxy97.com/archives/af5cab33-dd5f-4862-95d3-53dcd4966756
+

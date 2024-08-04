@@ -23,3 +23,18 @@
   yt-dlp --list-formats https://www.youtube.com/watch?v=e8EuHV
   yt-dlp -f "bv+ba" --merge-output-format mp4 https://www.youtube.com/watch?v=e8EuHV
   ```
+
+- 下载 YouTube 节目音频
+  ```
+  yt-dlp -f 139 https://www.youtube.com/watch?v=e8EuHV
+  ```
+
+- 用 aria2c 加速下载，需把 aria2c.exe 放在 yt-dlp 同目录下
+  ```
+  yt-dlp.exe -f 139 --downloader aria2c --downloader-args aria2c:"-x 8 -k 1M" https://www.youtube.com/watch?v=e8EuHV
+  ```
+
+- 相关 API
+  ```
+  https://line.1010diy.com/web/free-mp3-finder/detail?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkYiUePX
+  ```

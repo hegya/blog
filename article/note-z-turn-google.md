@@ -17,6 +17,14 @@
   ```
   window.clearInterval(scroll); console.clear(); urls = \$\$('a'); urls.forEach(function(v,i,a){if (v.id=="video-title"){console.log('\t'+v.title+'\t'+v.href+'\t')}});
   ```
+- YouTube 查看频道 ID
+
+  右键单击页面并选择“查看源代码”
+
+  按 Ctrl+f，搜索
+  ```
+  <meta property="og:url" content=
+  ```
 
 - 下载 YouTube 视频
   ```

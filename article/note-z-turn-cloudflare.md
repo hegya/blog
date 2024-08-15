@@ -32,3 +32,5 @@
 
   > https://github.com/cmliu/edgetunnel/blob/main/_worker.js
   
+  > https://github.com/ymyuuu/workers-vless/blob/main/_worker.js
+

@@ -29,3 +29,6 @@
 - 梯子
 
   > https://github.com/zizifn/edgetunnel/blob/main/src/worker-vless.js
+
+  > https://github.com/cmliu/edgetunnel/blob/main/_worker.js
+  

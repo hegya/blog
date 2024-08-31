@@ -4,6 +4,7 @@
   ```
   #snap install telegram-desktop
   ```
+  
 - 解决 dpkg 报“警告: 在 PATH 环境变量中找不到 ldconfig 或没有可执行权限”等
   ```
   #vim ~/.bashrc
@@ -16,4 +17,11 @@
   ```
   #source ~/.bashrc
   #source /etc/profile
+  ```
+
+- 检测 CPU 温度（[参考资料](https://gcore.com/learning/how-to-check-cpu-temperature-on-linux/)）
+  ```
+  #apt install lm-sensors
+  #sensors-detect
+  #sensors
   ```

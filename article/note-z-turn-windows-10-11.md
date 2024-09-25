@@ -25,6 +25,9 @@
     > HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\
   - 删除“导航窗格”中的网盘图标，删除其下子项
     > HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace
+  - 添加开机自启动程序
+    > HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run
+    新建“字符串”
 
 - 删除 C:\Windows\WinSxS 文件
   - Alt + X，选择“终端管理员”，输入：

@@ -13,3 +13,4 @@
 
 - 王炸
   - site:al.chirmyram.com 搜索
+  - alist.xiaoya.pro

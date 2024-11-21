@@ -18,6 +18,7 @@
   - 有意思
     - [书籍杂志下载](./article/note-book-magazine.md)
     - [来自 X 的知识](./article/note-things-from-x.md)
+    - [有意思的知乎日报](./article/note-zhihu-daily.md)
 
 - 学习
 

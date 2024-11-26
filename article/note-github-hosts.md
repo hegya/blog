@@ -12,3 +12,4 @@
   - 用 SwitchHosts 配置远程文件，可自动更新
 
 - 方式二：在 AdGuardHome - 过滤器 - DNS 黑名单 中添加
+  - https://raw.hellogithub.com/hosts

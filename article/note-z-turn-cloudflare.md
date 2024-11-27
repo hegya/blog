@@ -12,8 +12,6 @@
 
   > https://github.com/ymyuuu/Cloudflare-Workers-Proxy
   
-  > https://github.com/1234567Yang/cf-proxy-ex
-
 - Tunnel 内网穿透
 
   > https://sspai.com/post/79278

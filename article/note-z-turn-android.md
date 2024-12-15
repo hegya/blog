@@ -47,3 +47,5 @@
 
 - APPS
   > [12306](https://mobile.12306.cn/otsmobile/h5/otsbussiness/downloadapp/downloadapp.html) | [Bmap](http://www.bmaps.cn/) | [Gboard](https://gboard-go.cn.uptodown.com/android) | [Shelter](https://f-droid.org/packages/net.typeblog.shelter/) | [SmsForwarder](https://github.com/pppscn/SmsForwarder/releases) | [Via 浏览器](https://via-browser-fast-and-light-geek-best-choice.cn.uptodown.com/android) | [bilibili](https://com-bilibili-app-in.cn.uptodown.com/android) | [个人所得税](https://etax.chinatax.gov.cn/download/its.apk) | [坚果云](https://sj.qq.com/appdetail/nutstore.android?from_wxz=1) | [学习强国](https://h5.xuexi.cn/page/download.html) | [微信读书](https://weread.qq.com/web/redirect?from=NavBar) | [米家](https://g.home.mi.com/views/download-mihome.html) | [阅读](https://github.com/gedoor/legado/releases)
+
+- [MiFlash 错误 Not catch checkpoint 解决方法](https://miuiver.com/miflash-error-not-catch-checkpoint/)

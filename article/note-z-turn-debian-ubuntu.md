@@ -45,23 +45,4 @@
   #sort -o file file
   ```
 
-- 通过docker安装homeassistant
-
-  1. 安装 docker
-
-  ```
-  #apt install curl vim wget gnupg dpkg apt-transport-https lsb-release ca-certificates
-  #curl -sS https://download.docker.com/linux/debian/gpg | gpg --dearmor > /usr/share/keyrings/docker-ce.gpg
-  #echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-ce.gpg] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian $(lsb_release -sc) stable" > /etc/apt/sources.list.d/docker.list
-  #apt update
-  #apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-  ```
-
-  2. 安装 OS-AGENT 和 supervised
-
-  ```
-  #wget https://github.com/home-assistant/os-agent/releases/download/x.x.x/os-agent_x.x.x_linux_x86_64.deb
-  #wget https://github.com/home-assistant/supervised-installer/releases/download/x.x.x/homeassistant-supervised.deb
-  #dpkg -i os-agent_x.x.x_linux_x86_64.deb
-  #dpkg -i homeassistant-supervised.deb
-  ```
+- 通过 docker 安装 homeassistant，并集成 xiaomi home [参考资料](https://github.com/home-assistant/supervised-installer)

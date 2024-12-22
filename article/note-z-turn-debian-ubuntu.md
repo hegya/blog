@@ -29,7 +29,6 @@
 
   ```
   #apt install lm-sensors
-  #sensors-detect
   #sensors
   ```
 
@@ -46,3 +45,10 @@
   ```
 
 - 通过 docker 安装 homeassistant，并集成 xiaomi home [参考资料](https://github.com/home-assistant/supervised-installer)
+
+- 已有 Apache 安装 PHP
+
+  ```
+  #apt install php libapache2-mod-php php-opcache php-cli php-gd php-curl php-sqlite3 php-mbstring
+  #systemctl restart apache2
+  ```

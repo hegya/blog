@@ -39,8 +39,11 @@
   - 设置本地存储
     > termux-setup-storage
     
-  - 解决 sshd: no hostkeys available
-    > ssh-keygen -A
+  - 配置 SSH
+    > pkg install openssh
+    > ssh-keygen -A //生成 ssh 密钥
+    > whoami //查看用户名
+    > passwd //设置密码，远程访问端口为 8022
     
   - 安装 nginx 和 php
     > https://www.zhihuclub.com/152736.shtml

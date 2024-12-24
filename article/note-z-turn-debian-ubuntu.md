@@ -49,6 +49,6 @@
 - 已有 Apache 安装 PHP
 
   ```
-  #apt install php libapache2-mod-php php-opcache php-cli php-gd php-curl php-sqlite3 php-mbstring
+  #apt install php libapache2-mod-php php-opcache php-cli php-gd php-curl php-sqlite3 php-mbstring php-xml
   #systemctl restart apache2
   ```

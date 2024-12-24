@@ -15,7 +15,7 @@
   添加一行
 
   ```
-  export PATH=/usr/loca/sbin:/usr/sbin:/sbin:\$PATH
+  export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:$PATH
   ```
 
   之后

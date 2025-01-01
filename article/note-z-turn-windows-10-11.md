@@ -45,12 +45,15 @@
     Add-AppxPackage -Path "D:\Path\Filename.Appx"
     ```
 
-- LTSC 安装 Microsoft Store，并解决 heic 图片打开问题
-  - 在 https://store.rg-adguard.net/ 用 PackageFamilyName 搜索 “Microsoft.WindowsStore_8wekyb3d8bbwe”
-  - 下载最新的 Microsoft.NET.Native.Framework、Microsoft.NET.Native.Runtime、Microsoft.UI.Xaml、Microsoft.VCLibs、Microsoft.WindowsStore，放在一个文件夹内
-  - Alt + X，选择“ Windows PowerShell (管理员)”，输入：
+- LTSC 安装 Microsoft Store
+  - 一条指令法
+    - Alt + X，选择“ Windows PowerShell (管理员)”，输入：wsreset -i
+  - 手动法
+    - 在 https://store.rg-adguard.net/ 用 PackageFamilyName 搜索 “Microsoft.WindowsStore_8wekyb3d8bbwe”
+    - 下载最新的 Microsoft.NET.Native.Framework、Microsoft.NET.Native.Runtime、Microsoft.UI.Xaml、Microsoft.VCLibs、Microsoft.WindowsStore，放在一个文件夹内
+    - Alt + X，选择“ Windows PowerShell (管理员)”，输入：
     ```
     Add-AppxPackage *
     ```
-  - 在 Microsoft Store 内安装 “HEIF 图像扩展” https://apps.microsoft.com/detail/9PMMSR1CGPWG
+    - 在 Microsoft Store 内安装 “HEIF 图像扩展” https://apps.microsoft.com/detail/9PMMSR1CGPWG
   

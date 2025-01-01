@@ -3,10 +3,10 @@
 - 激活 Windows11
   - Alt + X，选择“终端管理员”，依次输入三行命令：
   ```
-  slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
-  slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D (for win11 ltsc)
-  slmgr /skms kms.03k.org
-  slmgr /ato
+  slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+  slmgr -ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D (for win11 ltsc)
+  slmgr -skms kms.03k.org
+  slmgr -ato
   ```
 
 - 替换系统字体
@@ -39,3 +39,18 @@
 - 关闭搜索栏广告及隐藏热门搜索推荐
   - https://www.wxy97.com/archives/af5cab33-dd5f-4862-95d3-53dcd4966756
 
+- 安装 APPX
+  - Alt + X，选择“ Windows PowerShell (管理员)”，输入：
+    ```
+    Add-AppxPackage -Path "D:\Path\Filename.Appx"
+    ```
+
+- LTSC 安装 Microsoft Store，并解决 heic 图片打开问题
+  - 在 https://store.rg-adguard.net/ 用 PackageFamilyName 搜索 “Microsoft.WindowsStore_8wekyb3d8bbwe”
+  - 下载最新的 Microsoft.NET.Native.Framework、Microsoft.NET.Native.Runtime、Microsoft.UI.Xaml、Microsoft.VCLibs、Microsoft.WindowsStore，放在一个文件夹内
+  - Alt + X，选择“ Windows PowerShell (管理员)”，输入：
+    ```
+    Add-AppxPackage *
+    ```
+  - 在 Microsoft Store 内安装 “HEIF 图像扩展” https://apps.microsoft.com/detail/9PMMSR1CGPWG
+  

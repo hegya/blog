@@ -11,6 +11,8 @@
 - Workers 架设通用代理
 
   > https://github.com/ymyuuu/Cloudflare-Workers-Proxy
+
+  > https://github.com/netnr/workers/
   
 - Tunnel 内网穿透
 
@@ -23,12 +25,3 @@
 - 订阅转换
 
   > https://xtrojan.vip/blog/cf-wkrs-sub-convert.html
-
-- 梯子
-
-  > https://github.com/zizifn/edgetunnel/blob/main/src/worker-vless.js
-
-  > https://github.com/cmliu/edgetunnel/blob/main/_worker.js
-  
-  > https://github.com/ymyuuu/workers-vless/blob/main/_worker.js
-

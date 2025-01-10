@@ -10,12 +10,20 @@
 
   在页面点右键，“检查”-“控制台”输入
   ```
-  var scroll = setInterval(function(){ window.scrollBy(0, 1000)}, 1000);
+  let goToBottom = setInterval(() => window.scrollBy(0, 400), 1000);
   ```
 
   等页面全部加载完成，再输入
   ```
-  window.clearInterval(scroll); console.clear(); urls = \$\$('a'); urls.forEach(function(v,i,a){if (v.id=="video-title"){console.log('\t'+v.title+'\t'+v.href+'\t')}});
+  clearInterval(goToBottom);
+  let arrayVideos = [];
+  const links = document.querySelectorAll('a');
+  for (const link of links) {
+      if (link.id === "video-title-link") {
+          arrayVideos.push(link.title + ';' + link.href);
+          console.log(link.title + '\t' + link.href);
+      }
+  }
   ```
 - YouTube 查看频道 ID
 
@@ -45,4 +53,7 @@
 - 相关 API
   ```
   https://line.1010diy.com/web/free-mp3-finder/detail?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkYiUePX
+
+  https://www.youtubemp3dl.com/extracting?link=https://www.youtube.com/watch?v=kUHAmnrrqsc //返回id
+  https://www.youtubemp3dl.com/youtube/youtube_dl?id=id&format=mp3
   ```

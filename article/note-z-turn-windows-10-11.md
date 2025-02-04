@@ -57,3 +57,5 @@
     ```
     - 在 Microsoft Store 内安装 “HEIF 图像扩展” https://apps.microsoft.com/detail/9PMMSR1CGPWG
   
+- 关闭休眠
+  > powercfg -hibernate off

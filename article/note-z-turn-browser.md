@@ -16,3 +16,6 @@
   2. 下载 uBlock 最新版本安装文件 uBlock0_x.yy.z.firefox.signed.xpi
    > https://github.com/gorhill/uBlock/releases
   3. 把 xpi 文件拖入 Firefox
+
+- Firefox 关闭 telemetry
+  > https://github.com/K3V1991/Disable-Firefox-Telemetry-and-Data-Collection

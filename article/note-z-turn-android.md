@@ -19,6 +19,13 @@
     
   - 停用 bloatware
     > adb shell pm disable-user com.android.quicksearchbox
+    ```
+    com.android.vivo.tws.vivotws
+    com.baidu.input_vivo
+    com.vivo.ai.ime.nex
+    com.vivo.browser
+    com.vivo.nps
+    ```
     
   - 去除信号感叹号
     > adb shell "settings put global captive_portal_https_url https://connect.rom.miui.com/generate_204"

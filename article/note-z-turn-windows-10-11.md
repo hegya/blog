@@ -1,13 +1,15 @@
 # Windows 10/11 折腾
 
 - 激活 Windows11
-  - Alt + X，选择“终端管理员”，依次输入三行命令：
+  - 方法一：Alt + X，选择“终端管理员”，依次输入三行命令：
   ```
   slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
   slmgr -ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D (for win11 ltsc)
   slmgr -skms kms.03k.org
   slmgr -ato
   ```
+  - 方法二：Alt + X，选择“终端”或 Windows PowerShell，输入：
+    > irm https://get.activated.win | iex
 
 - 替换系统字体
   - 字体下载 https://blog.dsrkafuu.net/post/2020/extract-sf-pingfang/

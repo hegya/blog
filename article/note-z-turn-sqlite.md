@@ -17,4 +17,8 @@
   ALTER TABLE daily1 RENAME TO daily;
   ```
 
-- 
+- 在字段中做字符串替换
+  ```
+  UPDATE twitter SET link = REPLACE(link, 'nitter.privacydev.net', 'x.com') WHERE 1;
+  ```
+  

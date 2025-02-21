@@ -23,6 +23,12 @@
   > https://blog.yasking.org/a/using-cloudflare-tunnel-service.html
   
   > https://www.evlit.com/66207.html 配置 SSH
+  
+  > cloudflared 更新
+  ```
+  # curl --location --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && dpkg -i cloudflared.deb
+  # systemctl restart cloudflared.service
+  ```
 
 - 订阅转换
 

@@ -39,7 +39,7 @@
   php -S localhost:8000 -t /path/to/dir  //指定目录为根目录
   ```
 
-- file_get_contens 设置 useragent 和 cookie
+- file_get_contents 设置 useragent 和 cookie
 
   - 设置 UA：
 

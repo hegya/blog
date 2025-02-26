@@ -9,7 +9,7 @@
     - [Excel 折腾](./article/note-z-turn-excel.md)
     - [GitHub 折腾](./article/note-z-turn-github.md)
     - [Google 折腾](./article/note-z-turn-google.md)
-    - [SQLite 技巧](./article/note-z-turn-sqlite.md)
+    - [PHP / Web / SQLite 技巧](./article/note-z-turn-web.md)
     - [Telegram 折腾](./article/note-z-turn-telegram.md)
     - [Windows 10/11 折腾](./article/note-z-turn-windows-10-11.md)
     - [光猫 / 路由器折腾](./article/note-z-turn-modem-router.md)

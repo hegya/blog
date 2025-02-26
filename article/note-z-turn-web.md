@@ -53,8 +53,8 @@
   $opts = array (
   	'http' => array (
   		'method' => 'GET',
-  		"Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n" .
-  		"Cookie:_xsrf=7Qsif4vDaDPZF8G6pCmN; \r\n".
+  		'header'=>"Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n" .
+  		"Cookie:_xsrf=7Qsif4vDaDPZF8G6pCmN; \r\n" .
   		"Pragma:no-cache\r\n",
   	)
   );

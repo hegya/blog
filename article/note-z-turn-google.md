@@ -45,6 +45,11 @@
   yt-dlp -f 139 https://www.youtube.com/watch?v=e8EuHV
   ```
 
+- 获取 YouTube 节目上传时间
+  ```
+  yt-dlp --skip-download --print "%(upload_date)s" "视频URL"  # 输出：20241104
+  ```
+
 - 用 aria2c 加速下载，需把 aria2c.exe 放在 yt-dlp 同目录下
   ```
   yt-dlp.exe -f 139 --downloader aria2c --downloader-args aria2c:"-x 8 -k 1M" https://www.youtube.com/watch?v=e8EuHV

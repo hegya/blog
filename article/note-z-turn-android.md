@@ -20,11 +20,9 @@
   - 停用 bloatware
     > adb shell pm disable-user com.android.quicksearchbox
     ```
-    com.android.vivo.tws.vivotws
-    com.baidu.input_vivo
-    com.vivo.ai.ime.nex
-    com.vivo.browser
-    com.vivo.nps
+    adb shell pm uninstall --user 0 com.baidu.input_vivo
+    adb shell pm uninstall --user 0 com.vivo.browser
+    adb shell pm uninstall --user 0 com.vivo.nps #IQOO体验评价
     ```
     
   - 去除信号感叹号

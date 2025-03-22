@@ -43,6 +43,7 @@
 - 下载 YouTube 节目音频
   ```
   yt-dlp -f 139 https://www.youtube.com/watch?v=e8EuHV
+  yt-dlp -f 140 --cookies-from-browser firefox/edge/opera/chrome https://www.youtube.com/watch?v=e8EuHV
   ```
 
 - 获取 YouTube 节目上传时间

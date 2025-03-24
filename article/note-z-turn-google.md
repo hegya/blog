@@ -38,6 +38,7 @@
   ```
   yt-dlp --list-formats https://www.youtube.com/watch?v=e8EuHV
   yt-dlp -f "bv+ba" --merge-output-format mp4 https://www.youtube.com/watch?v=e8EuHV
+  yt-dlp --flat-playlist --no-warnings --cookies-from-browser firefox --print "%(webpage_url)s##%(title)s" 播放列表 > dates1.txt
   ```
 
 - 下载 YouTube 节目音频

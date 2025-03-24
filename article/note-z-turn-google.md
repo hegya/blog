@@ -50,6 +50,7 @@
   ```
   yt-dlp --skip-download --no-warnings --print "%(upload_date)s" "视频URL"  # 输出：20241104
   yt-dlp --skip-download --no-warnings --print "%(title)s,%(upload_date)s,%(webpage_url)s" "播放列表URL" > dates.txt
+  yt-dlp --skip-download --no-warnings --print "%(title)s##%(release_timestamp)s##%(webpage_url)s" "PLoPd8czFk392PaACHE4cabdm1" > dates.txt
   ```
 
 - 用 aria2c 加速下载，需把 aria2c.exe 放在 yt-dlp 同目录下

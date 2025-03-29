@@ -1,30 +1,5 @@
 # Google 相关折腾
 
-- YouTube 查看某频道全部视频
-  
-  某频道为：https://www.youtube.com/channel/UCCKdJQfcldhnd5LUlasJu
-  
-  则频道视频列表为：https://www.youtube.com/playlist?list=UUCKdJQfcldhnd5LUlasJu
-
-  获取频道下所有视频 url 方法：[来源](https://www.quora.com/How-do-I-retrieve-all-video-URLs-from-a-YouTube-channel)
-
-  在页面点右键，“检查”-“控制台”输入
-  ```
-  let goToBottom = setInterval(() => window.scrollBy(0, 400), 1000);
-  ```
-
-  等页面全部加载完成，再输入
-  ```
-  clearInterval(goToBottom);
-  let arrayVideos = [];
-  const links = document.querySelectorAll('a');
-  for (const link of links) {
-      if (link.id === "video-title-link") {
-          arrayVideos.push(link.title + ';' + link.href);
-          console.log(link.title + '\t' + link.href);
-      }
-  }
-  ```
 - YouTube 查看频道 ID
 
   右键单击页面并选择“查看源代码”
@@ -34,18 +9,18 @@
   <meta property="og:url" content=
   ```
 
-- 下载 YouTube 视频
+- 下载 YouTube 视频清单
   ```
-  yt-dlp --list-formats https://www.youtube.com/watch?v=e8EuHV
-  yt-dlp -f "bv+ba" --merge-output-format mp4 https://www.youtube.com/watch?v=e8EuHV
   yt-dlp --flat-playlist --no-warnings --cookies-from-browser firefox --print "%(webpage_url)s##%(title)s" 播放列表 > dates1.txt
   yt-dlp --flat-playlist --get-url --get-title --match-filter "playlist_title != ''" https://www.youtube.com/@yuansir > dates1.txt
   ```
 
-- 下载 YouTube 节目音频
+- 下载 YouTube 节目音视频
   ```
+  yt-dlp --list-formats https://www.youtube.com/watch?v=e8EuHV    #列出音视频格式清单
   yt-dlp -f 139 https://www.youtube.com/watch?v=e8EuHV
   yt-dlp -f 140 --cookies-from-browser firefox/edge/opera/chrome https://www.youtube.com/watch?v=e8EuHV
+  yt-dlp -f "bv+ba" --merge-output-format mp4 https://www.youtube.com/watch?v=e8EuHV
   ```
 
 - 获取 YouTube 节目上传时间
@@ -66,4 +41,6 @@
 
   https://www.youtubemp3dl.com/extracting?link=https://www.youtube.com/watch?v=kUHAmnrrqsc //返回id
   https://www.youtubemp3dl.com/youtube/youtube_dl?id=id&format=mp3
+
+  https://www.youtube.com/oembed?format=json&url=urlencode($url);
   ```

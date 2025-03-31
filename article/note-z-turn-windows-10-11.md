@@ -11,6 +11,12 @@
   - 方法二：Alt + X，选择“终端”或 Windows PowerShell，输入：
     > irm https://get.activated.win | iex
 
+- 在 OOBE 界面创建本地用户
+  - 在 Windows 11 OOBE 登录用户账户界面按 Shift+F10 打开命令提示符 (CMD)
+  - 在命令提示符窗口中输入命令 start ms-cxh:localonly 按回车
+  - 此时系统将自动打开微软账户管理的窗口，在这里可以输入用户名称
+  - 在这里输入用户名和密码后继续即可，此时不再需要 BypassNRO 脚本或注册表
+
 - 替换系统字体
   - 字体下载 https://blog.dsrkafuu.net/post/2020/extract-sf-pingfang/
   - 替换工具 https://github.com/Tatsu-syo/noMeiryoUI

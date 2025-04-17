@@ -32,7 +32,7 @@
   allow_url_fopen = Off => allow_url_fopen = On
   ```
 
-  - 运行自带 Web 服务器：
+  - 运行 PHP 自带 Web 服务器：
 
   ```
   php -S localhost:8000 //当前目录为根目录
@@ -61,3 +61,7 @@
   $context = stream_context_create($opts);
   $data = file_get_contents($url, false, $context);
   ```
+
+  - 设置 favicon
+    - 下载 favicon.ico 到 /var/www/html
+    - 修改 /etc/apache2/mods-available/mime.conf，添加 AddType image/x-icon .ico，重启 apache

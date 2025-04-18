@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,api.sec.miui.com
 DOMAIN-SUFFIX,appcfg.v.qq.com
 DOMAIN-SUFFIX,beacon-api.aliyuncs.com
 DOMAIN-SUFFIX,beacon.sina.com.cn
+DOMAIN-SUFFIX,blackhole.m.jd.com
 DOMAIN-SUFFIX,bootcdn.net
 DOMAIN-SUFFIX,ccc-x.jd.com
 DOMAIN-SUFFIX,ccc.sys.miui.com
@@ -32,6 +33,8 @@ DOMAIN-SUFFIX,fclog.baidu.com
 DOMAIN-SUFFIX,file.daihuo.qq.com
 DOMAIN-SUFFIX,gaode-jmacs.m.taobao.com
 DOMAIN-SUFFIX,gdtimg.com
+DOMAIN-SUFFIX,gtms01.alicdn.com
+DOMAIN-SUFFIX,gtms04.alicdn.com
 DOMAIN-SUFFIX,googlet-analytics.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,iadsdk.apple.com
@@ -53,6 +56,7 @@ DOMAIN-SUFFIX,silkroad.csdn.net
 DOMAIN-SUFFIX,smvconf.f.360.cn
 DOMAIN-SUFFIX,snowflake.qq.com
 DOMAIN-SUFFIX,sp1.baidu.com
+DOMAIN-SUFFIX,sp2.baidu.com
 DOMAIN-SUFFIX,stadig.ifeng.com
 DOMAIN-SUFFIX,stat.u.sb
 DOMAIN-SUFFIX,staticfile.org

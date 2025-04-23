@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,cddp-track.aligames.com
 DOMAIN-SUFFIX,cgicol.amap.com
 DOMAIN-SUFFIX,clientservices.googleapis.com
 DOMAIN-SUFFIX,collector.github.com
+DOMAIN-SUFFIX,configsvr.msf.3g.qq.com
 DOMAIN-SUFFIX,cpro.baidustatic.com
 DOMAIN-SUFFIX,cstm.baidu.com
 DOMAIN-SUFFIX,data.mistat.xiaomi.com
@@ -42,12 +43,14 @@ DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,log-api.huxiu.com
 DOMAIN-SUFFIX,log.avlyun.com
 DOMAIN-SUFFIX,loggw-ex.alipay.com
+DOMAIN-SUFFIX,mars.jd.com
 DOMAIN-SUFFIX,mcs.zijieapi.com
 DOMAIN-SUFFIX,mmgame.qpic.cn
 DOMAIN-SUFFIX,mon.zijieapi.com
 DOMAIN-SUFFIX,mssdk.volces.com
 DOMAIN-SUFFIX,ogads-pa.clients6.google.com
 DOMAIN-SUFFIX,om.tracking.miui.com
+DOMAIN-SUFFIX,qqdata.ab.qq.com
 DOMAIN-SUFFIX,rdelivery.qq.com
 DOMAIN-SUFFIX,report.gamecenter.qq.com
 DOMAIN-SUFFIX,report.meeting.tencent.com
@@ -77,10 +80,12 @@ DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,ulogs.umengcloud.com
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,unitelogreport.reader.qq.com
+DOMAIN-SUFFIX,uranus.jd.com
 DOMAIN-SUFFIX,vcs.zijieapi.com
 DOMAIN-SUFFIX,wcp.taobao.com
 DOMAIN-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn
 DOMAIN-SUFFIX,wxs.qq.com
+DOMAIN-SUFFIX,xlog.jd.com
 DOMAIN-SUFFIX,zhanzhang.toutiao.com
 DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com
 DOMAIN-SUFFIX,zxid-m.mobileservice.cn

@@ -62,14 +62,14 @@
   $data = file_get_contents($url, false, $context);
   ```
 
-  - 设置 favicon
-    - 下载 favicon.ico 到 /var/www/html
-    - 修改 /etc/apache2/mods-available/mime.conf，添加 AddType image/x-icon .ico，重启 apache
+- 设置 favicon
+  - 下载 favicon.ico 到 /var/www/html
+  - 修改 /etc/apache2/mods-available/mime.conf，添加 AddType image/x-icon .ico，重启 apache
 
-  - 执行本地程序，以用 yt-dlp 获取 youtube 视频 upload_date 为例
-    ```
-    $command = 'D:\path\to\yt-dlp.exe --skip-download --no-warnings --print "%(upload_date)s" ' . escapeshellarg($link);
-    $rawDate = shell_exec($command);
-    $rawDate .= " 08:00:00";
-    $ptime = strtotime($rawDate);
-    ```
+- 执行本地程序，以用 yt-dlp 获取 youtube 视频 upload_date 为例
+  ```
+  $command = 'D:\path\to\yt-dlp.exe --skip-download --no-warnings --print "%(upload_date)s" ' . escapeshellarg($link);
+  $rawDate = shell_exec($command);
+  $rawDate .= " 08:00:00";
+  $ptime = strtotime($rawDate);
+  ```

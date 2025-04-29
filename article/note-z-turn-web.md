@@ -17,6 +17,11 @@
   ALTER TABLE daily1 RENAME TO daily;
   ```
 
+- 表中有多个 author，每个 author 按时间顺序选取前 3 条
+  ```
+  SELECT * FROM (SELECT *, ROW_NUMBER() OVER (PARTITION BY author ORDER BY ptime ASC) AS row_num FROM youtube WHERE mark=0) WHERE row_num <= 3
+  ```
+
 - 在字段中做字符串替换
   ```
   UPDATE twitter SET link = REPLACE(link, 'nitter.privacydev.net', 'x.com') WHERE 1;

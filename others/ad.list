@@ -8,7 +8,6 @@ DOMAIN,vmonitor.ws.netease.com
 DOMAIN,vstat.my.tv.sohu.com
 DOMAIN-KEYWORD,analytics.
 DOMAIN-KEYWORD,stsdk.vivo
-DOMAIN-SUFFIX,DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,a.market.xiaomi.com
 DOMAIN-SUFFIX,ac.dun.163.com
 DOMAIN-SUFFIX,ad-sdk.huxiu.com
@@ -60,6 +59,7 @@ DOMAIN-SUFFIX,fclog.baidu.com
 DOMAIN-SUFFIX,feed-image.baidu.com
 DOMAIN-SUFFIX,file.daihuo.qq.com
 DOMAIN-SUFFIX,firebaselogging.googleapis.com
+DOMAIN-SUFFIX,fourier.taobao.com
 DOMAIN-SUFFIX,g.163.com
 DOMAIN-SUFFIX,gaode-jmacs.m.taobao.com
 DOMAIN-SUFFIX,gdtimg.com
@@ -85,6 +85,7 @@ DOMAIN-SUFFIX,mars.jd.com
 DOMAIN-SUFFIX,mcs.zijieapi.com
 DOMAIN-SUFFIX,mdt.qq.com
 DOMAIN-SUFFIX,metok.sys.miui.com
+DOMAIN-SUFFIX,miao.baidu.com
 DOMAIN-SUFFIX,mixer.sina.cn
 DOMAIN-SUFFIX,mmgame.qpic.cn
 DOMAIN-SUFFIX,mmstat.com
@@ -101,6 +102,7 @@ DOMAIN-SUFFIX,qqdata.ab.qq.com
 DOMAIN-SUFFIX,rdelivery.qq.com
 DOMAIN-SUFFIX,report.gamecenter.qq.com
 DOMAIN-SUFFIX,report.meeting.tencent.com
+DOMAIN-SUFFIX,resolver.msg.global.xiaomi.net
 DOMAIN-SUFFIX,rmonitor.qq.com
 DOMAIN-SUFFIX,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,sax.sina.com.cn
@@ -110,6 +112,7 @@ DOMAIN-SUFFIX,sentry.music.163.com
 DOMAIN-SUFFIX,sfp.safe.baidu.com
 DOMAIN-SUFFIX,showkkkp.top
 DOMAIN-SUFFIX,shujupie.com
+DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,silkroad.csdn.net
 DOMAIN-SUFFIX,smvconf.f.360.cn
 DOMAIN-SUFFIX,sngapm.qq.com

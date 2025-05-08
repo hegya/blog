@@ -1,4 +1,7 @@
 DOMAIN,12bad489c210f884egg.nxue75.com
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,apd-pcdnwxnat.teg.tencent-cloud.net
+DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net
 DOMAIN,badjs.weixinbridge.com
 DOMAIN,channel.m.163.com
 DOMAIN,dlswbr.baidu.com
@@ -12,15 +15,13 @@ DOMAIN-SUFFIX,a.market.xiaomi.com
 DOMAIN-SUFFIX,ac.dun.163.com
 DOMAIN-SUFFIX,ad-sdk.huxiu.com
 DOMAIN-SUFFIX,ad.xiaomi.com
+DOMAIN-SUFFIX,adash.man.aliyuncs.com
 DOMAIN-SUFFIX,adashbc.ut.taobao.com
 DOMAIN-SUFFIX,adashx.ut.amap.com
 DOMAIN-SUFFIX,adutp.com
 DOMAIN-SUFFIX,aegis.qq.com
 DOMAIN-SUFFIX,aizhantj.com
 DOMAIN-SUFFIX,aliapp.org
-DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net
-DOMAIN-SUFFIX,apd-pcdnwxnat.teg.tencent-cloud.net
-DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net
 DOMAIN-SUFFIX,api-ad-product.huxiu.com
 DOMAIN-SUFFIX,api.sec.miui.com
 DOMAIN-SUFFIX,appcfg.v.qq.com
@@ -63,6 +64,9 @@ DOMAIN-SUFFIX,fourier.taobao.com
 DOMAIN-SUFFIX,g.163.com
 DOMAIN-SUFFIX,gaode-jmacs.m.taobao.com
 DOMAIN-SUFFIX,gdtimg.com
+DOMAIN-SUFFIX,gepush.com
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,gk.sina.cn
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagmanager.com

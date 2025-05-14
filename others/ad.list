@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,adashx.ut.amap.com
 DOMAIN-SUFFIX,adpai.thepaper.cn
 DOMAIN-SUFFIX,adreq.vivo.com.cn
 DOMAIN-SUFFIX,adutp.com
+DOMAIN-SUFFIX,adv.sec.miui.com
 DOMAIN-SUFFIX,adx.36kr.com
 DOMAIN-SUFFIX,aegis.qq.com
 DOMAIN-SUFFIX,aid.m.taobao.com
@@ -78,6 +79,8 @@ DOMAIN-SUFFIX,data.mistat.xiaomi.com
 DOMAIN-SUFFIX,data.sec.miui.com
 DOMAIN-SUFFIX,dataflow.biliapi.com
 DOMAIN-SUFFIX,deliver.ptgncdn.com
+DOMAIN-SUFFIX,demdex.net
+DOMAIN-SUFFIX,dig.bdurl.net
 DOMAIN-SUFFIX,dlswbr.baidu.com
 DOMAIN-SUFFIX,dns.weixin.qq.com.cn
 DOMAIN-SUFFIX,dorangesource.alicdn.com
@@ -90,6 +93,7 @@ DOMAIN-SUFFIX,easytomessage.com
 DOMAIN-SUFFIX,eclick.360doc.com
 DOMAIN-SUFFIX,eclick.baidu.com
 DOMAIN-SUFFIX,effirst.com
+DOMAIN-SUFFIX,events.mapbox.com
 DOMAIN-SUFFIX,fclog.baidu.com
 DOMAIN-SUFFIX,feed-image.baidu.com
 DOMAIN-SUFFIX,file.daihuo.qq.com
@@ -120,6 +124,7 @@ DOMAIN-SUFFIX,hmma.baidu.com
 DOMAIN-SUFFIX,hubcloud.com.cn
 DOMAIN-SUFFIX,huichuan.sm.cn
 DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,igexin.com
 DOMAIN-SUFFIX,im-x.jd.com
 DOMAIN-SUFFIX,interest.mix.sina.com.cn
 DOMAIN-SUFFIX,iyes.youku.com
@@ -161,6 +166,7 @@ DOMAIN-SUFFIX,mssdk.volces.com
 DOMAIN-SUFFIX,news.ssp.qq.com
 DOMAIN-SUFFIX,nex.163.com
 DOMAIN-SUFFIX,nsclick.baidu.com
+DOMAIN-SUFFIX,o2o.api.xiaomi.com
 DOMAIN-SUFFIX,ogads-pa.clients6.google.com
 DOMAIN-SUFFIX,om.tracking.miui.com
 DOMAIN-SUFFIX,onetrust.com
@@ -178,10 +184,12 @@ DOMAIN-SUFFIX,pos.baidu.com
 DOMAIN-SUFFIX,push.zhanzhang.baidu.com
 DOMAIN-SUFFIX,pv.focus.cn
 DOMAIN-SUFFIX,pv.sohu.com
+DOMAIN-SUFFIX,qapm.baidu.com
 DOMAIN-SUFFIX,qappcenterv6.3g.qq.com
 DOMAIN-SUFFIX,qchannel03.cn
 DOMAIN-SUFFIX,qpb1.sohu.com
 DOMAIN-SUFFIX,qqdata.ab.qq.com
+DOMAIN-SUFFIX,r.browser.miui.com
 DOMAIN-SUFFIX,ra.gtimg.com
 DOMAIN-SUFFIX,rdelivery.qq.com
 DOMAIN-SUFFIX,reke.at.sohu.com
@@ -222,6 +230,7 @@ DOMAIN-SUFFIX,stat.u.sb
 DOMAIN-SUFFIX,static.fengkongcloud.com
 DOMAIN-SUFFIX,staticfile.org
 DOMAIN-SUFFIX,sugar.zhihu.com
+DOMAIN-SUFFIX,ta.trs.cn
 DOMAIN-SUFFIX,tanx.com
 DOMAIN-SUFFIX,tawk.to
 DOMAIN-SUFFIX,tcbox.baidu.com
@@ -240,6 +249,7 @@ DOMAIN-SUFFIX,track.sohu.com
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,tsyndicate.com
 DOMAIN-SUFFIX,tuisong.baidu.com
+DOMAIN-SUFFIX,uc123.com
 DOMAIN-SUFFIX,ulogs.umengcloud.com
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,unionsug.baidu.com

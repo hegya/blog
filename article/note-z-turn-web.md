@@ -9,7 +9,7 @@
   - 建立新表，复制旧表到新表
   ```
   CREATE TABLE 'daily1' ('id' INTEGER PRIMARY KEY AUTOINCREMENT,'storyid' TEXT,'title' TEXT,'date1' TEXT);
-  INSERT INTO daily1 (storyid, title, date1) SELECT storyid, title, date1 FROM daily;
+  INSERT INTO youtube (title, link, author, ptime, mark, mtime) SELECT title, link, author, ptime, mark, mtime FROM youtube1 ORDER BY ptime ASC;
   ```
   - 删除旧表，重命名新表
   ```

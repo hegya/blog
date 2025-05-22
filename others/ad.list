@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,adutp.com
 DOMAIN-SUFFIX,adv.sec.miui.com
 DOMAIN-SUFFIX,adx.36kr.com
 DOMAIN-SUFFIX,aegis.qq.com
+DOMAIN-SUFFIX,afd.baidu.com
 DOMAIN-SUFFIX,aiclk.com
 DOMAIN-SUFFIX,aid.m.taobao.com
 DOMAIN-SUFFIX,aizhantj.com
@@ -49,6 +50,7 @@ DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,appc.baidu.com
 DOMAIN-SUFFIX,appcfg.v.qq.com
 DOMAIN-SUFFIX,appdownload.alicdn.com
+DOMAIN-SUFFIX,applog.uc.cn
 DOMAIN-SUFFIX,at3.doubanio.com
 DOMAIN-SUFFIX,auth.split.io
 DOMAIN-SUFFIX,badjs.weixinbridge.com
@@ -105,6 +107,7 @@ DOMAIN-SUFFIX,doubleclick.ctfile.com
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,dp3.qq.com
 DOMAIN-SUFFIX,dreport.meituan.net
+DOMAIN-SUFFIX,dualstack-cgicol.amap.com
 DOMAIN-SUFFIX,dualstack-logs.amap.com
 DOMAIN-SUFFIX,dxp.baidu.com
 DOMAIN-SUFFIX,e.qq.com
@@ -150,6 +153,7 @@ DOMAIN-SUFFIX,guid.tpns.tencent.com
 DOMAIN-SUFFIX,h-adashx.ut.taobao.com
 DOMAIN-SUFFIX,hm.baidu.com
 DOMAIN-SUFFIX,hmma.baidu.com
+DOMAIN-SUFFIX,hpd.baidu.com
 DOMAIN-SUFFIX,hubcloud.com.cn
 DOMAIN-SUFFIX,huichuan.sm.cn
 DOMAIN-SUFFIX,iadsdk.apple.com
@@ -211,6 +215,7 @@ DOMAIN-SUFFIX,om.tracking.miui.com
 DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,openinstall.io
 DOMAIN-SUFFIX,optaim.com
+DOMAIN-SUFFIX,p.data.cctv.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
 DOMAIN-SUFFIX,pb.sogou.com
@@ -244,6 +249,7 @@ DOMAIN-SUFFIX,report.qqweb.qq.com
 DOMAIN-SUFFIX,resolver.msg.global.xiaomi.net
 DOMAIN-SUFFIX,revive.outin.cn
 DOMAIN-SUFFIX,rmonitor.qq.com
+DOMAIN-SUFFIX,rqd.qq.com
 DOMAIN-SUFFIX,rumt-zh.com
 DOMAIN-SUFFIX,s.360.cn
 DOMAIN-SUFFIX,safebrowsing.googleapis.com

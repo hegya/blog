@@ -83,6 +83,7 @@ DOMAIN-SUFFIX,clarity.ms
 DOMAIN-SUFFIX,clientservices.googleapis.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,cm.bilibili.com
+DOMAIN-SUFFIX,cnlogs.umengcloud.com
 DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,collector.github.com
 DOMAIN-SUFFIX,configsvr.msf.3g.qq.com
@@ -120,6 +121,7 @@ DOMAIN-SUFFIX,eclick.360doc.com
 DOMAIN-SUFFIX,eclick.baidu.com
 DOMAIN-SUFFIX,ecma.bdimg.com
 DOMAIN-SUFFIX,ecmc.bdimg.com
+DOMAIN-SUFFIX,edigitalsurvey.com
 DOMAIN-SUFFIX,effirst.com
 DOMAIN-SUFFIX,erebor.douban.com
 DOMAIN-SUFFIX,etl-xlmc-ssl.sandai.net
@@ -306,6 +308,7 @@ DOMAIN-SUFFIX,techain.baidu.com
 DOMAIN-SUFFIX,theta.sogoucdn.com
 DOMAIN-SUFFIX,timon.zijieapi.com
 DOMAIN-SUFFIX,tingyun.com
+DOMAIN-SUFFIX,tiqcdn.com
 DOMAIN-SUFFIX,tmfsdk.m.qq.com
 DOMAIN-SUFFIX,tmfsdktcpv4.m.qq.com
 DOMAIN-SUFFIX,tms.fmm.io

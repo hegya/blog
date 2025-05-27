@@ -131,6 +131,7 @@ DOMAIN-SUFFIX,fclick.baidu.com
 DOMAIN-SUFFIX,fclog.baidu.com
 DOMAIN-SUFFIX,feed-image.baidu.com
 DOMAIN-SUFFIX,fengkongcloud.com
+DOMAIN-SUFFIX,figshare.com
 DOMAIN-SUFFIX,file.daihuo.qq.com
 DOMAIN-SUFFIX,firebaselogging.googleapis.com
 DOMAIN-SUFFIX,fndrsp.net
@@ -157,9 +158,11 @@ DOMAIN-SUFFIX,gtms03.alicdn.com
 DOMAIN-SUFFIX,gtms04.alicdn.com
 DOMAIN-SUFFIX,guid.tpns.tencent.com
 DOMAIN-SUFFIX,h-adashx.ut.taobao.com
+DOMAIN-SUFFIX,hdjthzg.cn
 DOMAIN-SUFFIX,hm.baidu.com
 DOMAIN-SUFFIX,hmma.baidu.com
 DOMAIN-SUFFIX,hpd.baidu.com
+DOMAIN-SUFFIX,hs-scripts.com
 DOMAIN-SUFFIX,hubcloud.com.cn
 DOMAIN-SUFFIX,huichuan.sm.cn
 DOMAIN-SUFFIX,iadsdk.apple.com
@@ -170,7 +173,9 @@ DOMAIN-SUFFIX,img3.126.net
 DOMAIN-SUFFIX,imp.ad.xelements.cn
 DOMAIN-SUFFIX,interest.mix.sina.com.cn
 DOMAIN-SUFFIX,ipinyou.com
+DOMAIN-SUFFIX,isdspeed.qq.com
 DOMAIN-SUFFIX,iyes.youku.com
+DOMAIN-SUFFIX,jcm.jd.com
 DOMAIN-SUFFIX,jddebug.com
 DOMAIN-SUFFIX,jiguang.cn
 DOMAIN-SUFFIX,jnn-pa.googleapis.com
@@ -179,6 +184,7 @@ DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,jpushjd.m.jd.com
 DOMAIN-SUFFIX,js.braintreegateway.com
 DOMAIN-SUFFIX,js.zol.com.cn
+DOMAIN-SUFFIX,knicks.jd.com
 DOMAIN-SUFFIX,kueezrtb.com
 DOMAIN-SUFFIX,kuiniuca.com
 DOMAIN-SUFFIX,kunpeng.csdn.net
@@ -211,6 +217,7 @@ DOMAIN-SUFFIX,mobads.baidu.com
 DOMAIN-SUFFIX,mon.zijieapi.com
 DOMAIN-SUFFIX,ms.bdimg.com
 DOMAIN-SUFFIX,msite.baidu.com
+DOMAIN-SUFFIX,mssdk.bytedance.com
 DOMAIN-SUFFIX,mssdk.volces.com
 DOMAIN-SUFFIX,mssdk3-normal-hl.zijieapi.com
 DOMAIN-SUFFIX,natdetection.onethingpcs.com
@@ -249,6 +256,7 @@ DOMAIN-SUFFIX,qapm.baidu.com
 DOMAIN-SUFFIX,qappcenterv6.3g.qq.com
 DOMAIN-SUFFIX,qchannel01.cn
 DOMAIN-SUFFIX,qchannel03.cn
+DOMAIN-SUFFIX,qdp.qidian.com
 DOMAIN-SUFFIX,qpb1.sohu.com
 DOMAIN-SUFFIX,qqdata.ab.qq.com
 DOMAIN-SUFFIX,r.browser.miui.com
@@ -331,6 +339,7 @@ DOMAIN-SUFFIX,umengacs.m.taobao.com
 DOMAIN-SUFFIX,unionsug.baidu.com
 DOMAIN-SUFFIX,unitelogreport.reader.qq.com
 DOMAIN-SUFFIX,uranus.jd.com
+DOMAIN-SUFFIX,uri6.com
 DOMAIN-SUFFIX,vcs.zijieapi.com
 DOMAIN-SUFFIX,vmonitor.ws.netease.com
 DOMAIN-SUFFIX,vnet.cn

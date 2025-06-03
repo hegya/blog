@@ -26,8 +26,10 @@ DOMAIN-SUFFIX,addtoany.com
 DOMAIN-SUFFIX,aditude.io
 DOMAIN-SUFFIX,adpai.thepaper.cn
 DOMAIN-SUFFIX,adreq.vivo.com.cn
+DOMAIN-SUFFIX,ads3-normal-lf.zijieapi.com
 DOMAIN-SUFFIX,ads3-normal-lq.zijieapi.com
 DOMAIN-SUFFIX,ads3-normal.zijieapi.com
+DOMAIN-SUFFIX,ads5-normal-lf.zijieapi.com
 DOMAIN-SUFFIX,ads5-normal.zijieapi.com
 DOMAIN-SUFFIX,adutp.com
 DOMAIN-SUFFIX,adv.sec.miui.com
@@ -93,6 +95,7 @@ DOMAIN-SUFFIX,crab.baidu.com
 DOMAIN-SUFFIX,crazyegg.com
 DOMAIN-SUFFIX,cstm.baidu.com
 DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN-SUFFIX,curoax.com
 DOMAIN-SUFFIX,d1.sina.com.cn
 DOMAIN-SUFFIX,d2.sina.com.cn
 DOMAIN-SUFFIX,d3.sina.com.cn
@@ -117,6 +120,7 @@ DOMAIN-SUFFIX,dualstack-cgicol.amap.com
 DOMAIN-SUFFIX,dualstack-logs.amap.com
 DOMAIN-SUFFIX,dxp.baidu.com
 DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,e8aeb8bbdbbd7.cdn.sohucs.com
 DOMAIN-SUFFIX,easytomessage.com
 DOMAIN-SUFFIX,eclick.360doc.com
 DOMAIN-SUFFIX,eclick.baidu.com
@@ -205,6 +209,7 @@ DOMAIN-SUFFIX,lxbjs.baidu.com
 DOMAIN-SUFFIX,mars.jd.com
 DOMAIN-SUFFIX,mcs.snssdk.com
 DOMAIN-SUFFIX,mcs.zijieapi.com
+DOMAIN-SUFFIX,magsrv.com
 DOMAIN-SUFFIX,mdt.qq.com
 DOMAIN-SUFFIX,mediav.com
 DOMAIN-SUFFIX,metok.sys.miui.com
@@ -217,6 +222,7 @@ DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,mnaspm.com
 DOMAIN-SUFFIX,mobads.baidu.com
 DOMAIN-SUFFIX,mon.zijieapi.com
+DOMAIN-SUFFIX,monsetting.toutiao.com
 DOMAIN-SUFFIX,ms.bdimg.com
 DOMAIN-SUFFIX,msite.baidu.com
 DOMAIN-SUFFIX,mssdk.bytedance.com
@@ -265,6 +271,7 @@ DOMAIN-SUFFIX,r.browser.miui.com
 DOMAIN-SUFFIX,ra.gtimg.com
 DOMAIN-SUFFIX,rdelivery.qq.com
 DOMAIN-SUFFIX,reachmax.cn
+DOMAIN-SUFFIX,referee.xiaohongshu.com
 DOMAIN-SUFFIX,reke.at.sohu.com
 DOMAIN-SUFFIX,report.gamecenter.qq.com
 DOMAIN-SUFFIX,report.meeting.tencent.com
@@ -299,6 +306,7 @@ DOMAIN-SUFFIX,sofire.bdstatic.com
 DOMAIN-SUFFIX,sp0.baidu.com
 DOMAIN-SUFFIX,sp1.baidu.com
 DOMAIN-SUFFIX,sp2.baidu.com
+DOMAIN-SUFFIX,spider-tracker.xiaohongshu.com
 DOMAIN-SUFFIX,src.leju.com
 DOMAIN-SUFFIX,ssc.rfa.org
 DOMAIN-SUFFIX,ssm.codes
@@ -309,6 +317,7 @@ DOMAIN-SUFFIX,staticfile.org
 DOMAIN-SUFFIX,statics.woozooo.com
 DOMAIN-SUFFIX,stats.wp.com
 DOMAIN-SUFFIX,sugar.zhihu.com
+DOMAIN-SUFFIX,t-dsp.pinduoduo.com
 DOMAIN-SUFFIX,ta.trs.cn
 DOMAIN-SUFFIX,tags.rfa.org
 DOMAIN-SUFFIX,tagtoo.co
@@ -324,6 +333,8 @@ DOMAIN-SUFFIX,tiqcdn.com
 DOMAIN-SUFFIX,tmfsdk.m.qq.com
 DOMAIN-SUFFIX,tmfsdktcpv4.m.qq.com
 DOMAIN-SUFFIX,tms.fmm.io
+DOMAIN-SUFFIX,tnc0-alisc1.zijieapi.com
+DOMAIN-SUFFIX,tnc0-bjlgy.zijieapi.com
 DOMAIN-SUFFIX,tnc3-aliec2.zijieapi.com
 DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com
 DOMAIN-SUFFIX,tnc3-bjlgy.zijieapi.com
@@ -341,6 +352,7 @@ DOMAIN-SUFFIX,ulogs.umengcloud.com
 DOMAIN-SUFFIX,umami.is
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengacs.m.taobao.com
+DOMAIN-SUFFIX,umengjmacs.m.taobao.com
 DOMAIN-SUFFIX,union.dangdang.com
 DOMAIN-SUFFIX,unionsug.baidu.com
 DOMAIN-SUFFIX,unitelogreport.reader.qq.com

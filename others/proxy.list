@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,dw.com
 DOMAIN-SUFFIX,f-droid.org
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.net
@@ -58,6 +59,7 @@ DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,rfa.org
+DOMAIN-SUFFIX,rfi.fr
 DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,t.me
@@ -85,3 +87,5 @@ DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
 IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR,91.108.0.0/16,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve

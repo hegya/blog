@@ -2,7 +2,7 @@ DOMAIN-KEYWORD,adsdk
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,analytics.
 DOMAIN-KEYWORD,googleads
-DOMAIN-KEYWORD,stsdk.vivo
+DOMAIN-KEYWORD,tsdk.vivo
 DOMAIN-SUFFIX,12bad489c210f884egg.nxue75.com
 DOMAIN-SUFFIX,1lan.tv
 DOMAIN-SUFFIX,2345.com
@@ -202,6 +202,7 @@ DOMAIN-SUFFIX,live.primis.tech
 DOMAIN-SUFFIX,lkme.cc
 DOMAIN-SUFFIX,log-api.huxiu.com
 DOMAIN-SUFFIX,log-stats.weathercn.com
+DOMAIN-SUFFIX,log.aliyuncs.com
 DOMAIN-SUFFIX,log.avlyun.com
 DOMAIN-SUFFIX,log.mix.sina.com.cn
 DOMAIN-SUFFIX,log.sina.cn
@@ -225,6 +226,7 @@ DOMAIN-SUFFIX,mmgame.qpic.cn
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,mnaspm.com
 DOMAIN-SUFFIX,mobads.baidu.com
+DOMAIN-SUFFIX,mon.snssdk.com
 DOMAIN-SUFFIX,mon.zijieapi.com
 DOMAIN-SUFFIX,monsetting.toutiao.com
 DOMAIN-SUFFIX,ms.bdimg.com
@@ -282,6 +284,7 @@ DOMAIN-SUFFIX,referee.xiaohongshu.com
 DOMAIN-SUFFIX,reke.at.sohu.com
 DOMAIN-SUFFIX,report.gamecenter.qq.com
 DOMAIN-SUFFIX,report.meeting.tencent.com
+DOMAIN-SUFFIX,report.meituan.com
 DOMAIN-SUFFIX,report.qqweb.qq.com
 DOMAIN-SUFFIX,resolver.msg.global.xiaomi.net
 DOMAIN-SUFFIX,revive.outin.cn
@@ -335,9 +338,11 @@ DOMAIN-SUFFIX,tcbox.baidu.com
 DOMAIN-SUFFIX,tdid.m.qq.com
 DOMAIN-SUFFIX,techain.baidu.com
 DOMAIN-SUFFIX,theta.sogoucdn.com
+DOMAIN-SUFFIX,tianshu.gtimg.cn
 DOMAIN-SUFFIX,timon.zijieapi.com
 DOMAIN-SUFFIX,tingyun.com
 DOMAIN-SUFFIX,tiqcdn.com
+DOMAIN-SUFFIX,tmead.y.qq.com
 DOMAIN-SUFFIX,tmfsdk.m.qq.com
 DOMAIN-SUFFIX,tmfsdktcpv4.m.qq.com
 DOMAIN-SUFFIX,tms.fmm.io

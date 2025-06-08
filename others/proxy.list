@@ -36,7 +36,9 @@ DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,google.co.jp
 DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.com.hk
 DOMAIN-SUFFIX,google.com.sg
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleusercontent.com
@@ -48,7 +50,6 @@ DOMAIN-SUFFIX,ifttt.com
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,jichangtuijian.com
 DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,ltn.com.tw

@@ -27,6 +27,7 @@ DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,feedly.com
 DOMAIN-SUFFIX,flightradar24.com
+DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,google.co.jp
 DOMAIN-SUFFIX,google.com
@@ -71,3 +72,6 @@ DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,wsj.com
 DOMAIN-SUFFIX,wsj.net
 DOMAIN-SUFFIX,xcancel.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,ytimg.com

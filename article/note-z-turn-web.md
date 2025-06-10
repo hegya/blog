@@ -78,3 +78,10 @@
   $rawDate .= " 08:00:00";
   $ptime = strtotime($rawDate);
   ```
+
+- Apache 服务器显示文本汉字为乱码
+  - 在 /etc/apache2/apache2.conf 末尾添加
+  ```
+  AddDefaultCharset UTF-8
+  ```
+  重启 Apache systemctl restart apache2

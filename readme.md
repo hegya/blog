@@ -3,7 +3,7 @@
 - 笔记
 
   - 折腾
-    - [Android 手机 / 电视折腾](./article/note-z-turn-android.md)
+    - [Android 手机 / 电视折腾](https://github.com/hegya/blog/issues/1)
     - [Cloudflare 折腾](./article/note-z-turn-cloudflare.md)
     - [Debian / Ubuntu 折腾](./article/note-z-turn-debian-ubuntu.md)
     - [Excel 折腾](./article/note-z-turn-excel.md)

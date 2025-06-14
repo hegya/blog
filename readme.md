@@ -4,9 +4,9 @@
 
   - 折腾
     - [Android 手机 / 电视折腾](https://github.com/hegya/blog/issues/1)
-    - [Cloudflare 折腾](./article/note-z-turn-cloudflare.md)
-    - [Debian / Ubuntu 折腾](./article/note-z-turn-debian-ubuntu.md)
-    - [Excel 折腾](./article/note-z-turn-excel.md)
+    - [Cloudflare 折腾](https://github.com/hegya/blog/issues/2)
+    - [Debian / Ubuntu 折腾](https://github.com/hegya/blog/issues/3)
+    - [Excel 折腾](https://github.com/hegya/blog/issues/4)
     - [GitHub 折腾](./article/note-z-turn-github.md)
     - [Google 折腾](./article/note-z-turn-google.md)
     - [PHP / Web / SQLite 技巧](./article/note-z-turn-web.md)

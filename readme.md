@@ -27,7 +27,7 @@
   - 几何
     - [公式](./article/study-geometry-formula.md)
 
-- [诗抄](https://github.com/hegya/blog/issues/11)
+- [诗抄](./article/poem.md)
 
 - 文摘
 

@@ -12,8 +12,7 @@
     - [Telegram 折腾](https://github.com/hegya/blog/issues/7)
     - [Windows 10/11 折腾](https://github.com/hegya/blog/issues/8)
     - [光猫 / 路由器折腾](https://github.com/hegya/blog/issues/9)
-    - [浏览器折腾](https://github.com/hegya/blog/issues/10)
-    - [正则范例](https://github.com/hegya/blog/issues/11)
+    - [正则范例](https://github.com/hegya/blog/issues/10)
   - 有意思
     - [书籍杂志下载](./article/note-book-magazine.md)
     - [来自 X 的知识](./article/note-things-from-x.md)

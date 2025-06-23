@@ -1,14 +1,7 @@
 # 诗抄目录
-- 先秦
-  - 诗经
-    - 木瓜 [20240204]
-    - 子衿 [20240126]
+- [诗经](./article/poem/shijing.md) ：[木瓜](./article/poem/shijing.md#木瓜) | [子衿](./article/poem/shijing.md#子衿)
 
-- 汉
-  - 曹操
-    - 短歌行 [20240112]
-    - 观沧海 [20231220]
-    - 龟虽寿 [20231222]
+- [曹操](./article/poem/caocao.md) ：[短歌行](./article/poem/caocao.md#短歌行) | [观沧海](./article/poem/caocao.md#观沧海) | [龟虽寿](./article/poem/caocao.md#龟虽寿)
   - 汉乐府
     - 长歌行 [20240122]
     - 江南 [20231222]

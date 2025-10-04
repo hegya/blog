@@ -45,7 +45,7 @@ if ($act == "add") {
 
 	$ptime = strtotime($_POST['ptime']);
 
-	$url1 = "https://www.youtube.com/oembed?format=json&url=" . urlencode($url);
+	$url1 = "https://dai.434592.xyz/https://www.youtube.com/oembed?format=json&url=" . urlencode($url);
 	$str = json_decode(file_get_contents($url1), true);
 
 	if (!$str || !isset($str['title'], $str['author_name'])) {

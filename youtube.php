@@ -101,7 +101,7 @@ if ($act == "add") {
 		$author = $row['author'];
 		$link = $row['link'];
 		$mark = $row['mark'];
-        $vid = substr($link, -11);
+		$vid = substr($link, -11);
 
 		if ($mark) {
 			echo "<p><a href='$link' target='_blank'>$ptime | $author | $title | $vid</a></p>";
@@ -115,7 +115,7 @@ if ($act == "add") {
 } else {
 	// 显示新入未听条目
 	echo "<p>--------- <a href='./youtube.php?t=" . time() . "'>新入条目</a> --------</p>";
-	$stmt = $db->prepare("SELECT * FROM youtube WHERE mark <> 1 AND ptime >= strftime('%s', datetime('now', 'localtime', '-12 hours'))");
+	$stmt = $db->prepare("SELECT * FROM youtube WHERE mark <> 1 AND ptime >= strftime('%s', datetime('now', 'localtime', '-120 hours'))");
 	$data = $stmt->execute();
 
 	while ($row = $data->fetchArray(SQLITE3_ASSOC)) {
@@ -124,9 +124,9 @@ if ($act == "add") {
 		$link = $row['link'];
 		$ptime = date("m-d H:i", $row['ptime']);
 		$author = $row['author'];
-        $vid = substr($link, -11);
+		$vid = substr($link, -11);
 
-		echo "<form action='./youtube.php' method='post'><a href='$link' target='_blank'>$ptime | $author | $title</a> | <span class='copy-text' data-copy='$link' data-original='$vid'>$vid</span><input type='hidden' name='act' value='mark'><input type='hidden' name='id' value='$id'><button type='submit' style='float: right'>已听</button></form>";
+		echo "<form action='./youtube.php' method='post'><a href='$link' target='_blank'>$ptime | $author | $title</a> | <span class='copy-text' data-copy='$link' data-original='$vid' id='textToCopy'>$vid</span><input type='hidden' name='act' value='mark'><input type='hidden' name='id' value='$id'><button type='submit' style='float: right'>已听</button></form>";
 	}
 
 	// 显示历史未听条目
@@ -141,9 +141,9 @@ if ($act == "add") {
 		$author = $row['author'];
 		$link = $row['link'];
 		$ptime = date("Y-m-d", $row['ptime']);
-        $vid = substr($link, -11);
+		$vid = substr($link, -11);
 
-		echo "<form action='./youtube.php' method='post'><a href='$link' target='_blank'>$ptime | $author | $title</a> | <span class='copy-text' data-copy='$link' data-original='$vid'>$vid</span><input type='hidden' name='act' value='mark'><input type='hidden' name='id' value='$id'><button type='submit' style='float: right'>已听</button></form>";
+		echo "<form action='./youtube.php' method='post'><a href='$link' target='_blank'>$ptime | $author | $title</a> | <span class='copy-text' data-copy='$link' data-original='$vid' id='textToCopy'>$vid</span><input type='hidden' name='act' value='mark'><input type='hidden' name='id' value='$id'><button type='submit' style='float: right'>已听</button></form>";
 	}
 
 	// 显示已听条目
@@ -156,7 +156,7 @@ if ($act == "add") {
 		$link = $row['link'];
 		$mtime = date("m-d H:i", $row['mtime']);
 		$author = $row['author'];
-        $vid = substr($link, -11);
+		$vid = substr($link, -11);
 
 		echo "<p><a href='$link' target='_blank'>$mtime | $author | $title | $vid</a></p>";
 	}
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	document.querySelectorAll('.copy-text').forEach(el => {
 		el.addEventListener('click', function() {
 			const text = this.getAttribute('data-copy');
-			    
+
 			// 尝试使用 Clipboard API
 			if (navigator.clipboard) {
 				navigator.clipboard.writeText(text)
@@ -216,16 +216,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	function handleCopySuccess(element) {
 		// 保存原始文本
-		const originalText = element.getAttribute('data-original');
+		//const originalText = element.getAttribute('data-original');
 
 		// 替换为"已复制"
-		element.textContent = "已复制";
+		//element.textContent = "已复制";
 		element.classList.add('copied');
 
-		setTimeout(() => {
-			element.textContent = originalText;
-			element.classList.remove('copied');
-		}, 3000);
+		//setTimeout(() => {
+		//	element.textContent = originalText;
+		//	element.classList.remove('copied');
+		//}, 3000);
 	}
 });
 </script>

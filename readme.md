@@ -33,6 +33,7 @@
 
 - 文摘
 
+  - 20251204-[论抗日（李承鹏）](./article/digest-kang-ri.md)
   - 20250105-[“总有一种力量让我们泪流满面”](https://chinadigitaltimes.net/chinese/362968.html)
   - 20240704-[2014~2024，仅仅十年（大象公会）](https://chinadigitaltimes.net/chinese/709422.html)
   - 20240520-[赖清德就职中华民国总统演说全文](./article/digest-lai-speech.md)

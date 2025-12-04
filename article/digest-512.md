@@ -1,6 +1,6 @@
 ## 写在 5.12 的爱国帖
 
-（https://x.com/dayangelcp/status/1789519718493368456）
+（ https://x.com/dayangelcp/status/1789519718493368456 ）
 
 李承鹏/文
 

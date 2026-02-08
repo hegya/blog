@@ -9,6 +9,8 @@
 // @license      MIT
 // @run-at       document-end
 // ==/UserScript==
+// @updateURL    https://github.com/hegya/blog/raw/refs/heads/main/others/jandan_pagenav_and_imgurl.js
+// @downloadURL  https://github.com/hegya/blog/raw/refs/heads/main/others/jandan_pagenav_and_imgurl.js
 
 (function() {
     'use strict';

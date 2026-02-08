@@ -10,6 +10,8 @@
 // @license      MIT
 // @run-at       document-end  // 延迟执行，适配Via页面加载机制
 // ==/UserScript==
+// @updateURL    https://github.com/hegya/blog/raw/refs/heads/main/others/jandan_comments_enhance.js
+// @downloadURL  https://github.com/hegya/blog/raw/refs/heads/main/others/jandan_comments_enhance.js
 
 (function() {
     'use strict';

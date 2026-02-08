@@ -143,7 +143,7 @@
             const voteDiv = document.createElement('div');
             voteDiv.className = 'tucao-vote';
             // 拆分span，增大点击区域
-            voteDiv.innerHTML = `<span>👍 ${vote_positive}</span> <span>👎 ${vote_negative}</span>`;
+            voteDiv.innerHTML = `<span>OO ${vote_positive}</span> <span>XX ${vote_negative}</span>`;
             tucaoItem.appendChild(voteDiv);
 
             // 渲染子评论

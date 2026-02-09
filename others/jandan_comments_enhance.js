@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         煎蛋网评论区重构-树状+热门高亮(Via移动端适配)
 // @namespace    https://jandan.net/
-// @version      1.1
+// @version      1.2
 // @description  解析煎蛋网评论API，构建评论回复树，热门评论加粗，适配安卓Via浏览器
 // @author       自定义
 // @match        *://jandan.net/t/*
@@ -102,7 +102,7 @@
     // 从评论内容中匹配父评论ID（增强正则兼容性）
     const getParentCommentId = (content) => {
         if (!content) return null;
-        const reg = /href=["']#tucao-(\d+)["']/i; // 兼容单/双引号，Via适配
+        const reg = /#.*?(\d+)#/; // 兼容单/双引号，Via适配
         const match = content.match(reg);
         return match ? Number(match[1]) : null;
     };

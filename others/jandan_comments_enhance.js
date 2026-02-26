@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         煎蛋网评论区重构-树状+热门高亮(Via移动端适配)
 // @namespace    https://jandan.net/
-// @version      1.2
+// @version      1.3
 // @description  解析煎蛋网评论API，构建评论回复树，热门评论加粗，适配安卓Via浏览器
 // @author       自定义
 // @match        *://jandan.net/t/*
@@ -12,6 +12,22 @@
 // @updateURL    https://github.com/hegya/blog/raw/refs/heads/main/others/jandan_comments_enhance.js
 // @downloadURL  https://github.com/hegya/blog/raw/refs/heads/main/others/jandan_comments_enhance.js
 // ==/UserScript==
+
+/**
+ * 煎蛋网评论区重构脚本
+ * 功能：
+ * 1. 构建评论回复树，使评论层级更清晰
+ * 2. 热门评论高亮显示，便于快速识别
+ * 3. 移动端适配，特别是Via浏览器
+ * 4. 错误处理和重试机制，提高可靠性
+ * 5. 性能优化，包括缓存和DOM操作优化
+ * 
+ * 版本历史：
+ * 1.0 - 初始版本
+ * 1.1 - 修复一些bug
+ * 1.2 - 优化移动端适配
+ * 1.3 - 代码重构和性能优化
+ */
 
 (function() {
     'use strict';
@@ -30,7 +46,7 @@
     };
 
     // 移动端适配样式：优化字体、间距、缩进，避免横向滚动，增强触摸友好性
-    injectStyle(`
+    const MOBILE_STYLES = `
         * {
             box-sizing: border-box;  /* 避免布局错乱，Via必加 */
         }
@@ -89,7 +105,10 @@
         .tucao-vote span:hover {
             background: #f0f0f0;
         }
-    `);
+    `;
+
+    // 注入样式
+    injectStyle(MOBILE_STYLES);
 
     // ==================== 核心优化2：工具函数增强（适配Via） ====================
     // 从URL提取煎蛋帖子ID（增强鲁棒性，适配Via URL解析）
@@ -107,59 +126,84 @@
         return match ? Number(match[1]) : null;
     };
 
+    // 创建单个评论元素
+    const createCommentElement = (comment, hotTucaoIds) => {
+        const {
+            comment_ID,
+            comment_author,
+            comment_date,
+            ip_location,
+            comment_content,
+            vote_positive,
+            vote_negative,
+            children = []
+        } = comment;
+
+        // 评论外层容器
+        const tucaoItem = document.createElement('div');
+        tucaoItem.className = 'tucao-item';
+
+        // 1. 元信息（作者、时间、IP）- 移动端适配
+        const metaDiv = document.createElement('div');
+        metaDiv.className = 'tucao-meta';
+        const ip = ip_location || '未知'; // 缩短IP占位符，节省空间
+        metaDiv.innerText = `${comment_author} | ${comment_date} | ${ip}`;
+        tucaoItem.appendChild(metaDiv);
+
+        // 2. 评论内容 - 热门评论增强样式
+        const contentDiv = document.createElement('div');
+        contentDiv.className = `tucao-content ${hotTucaoIds.has(comment_ID) ? 'tucao-hot' : ''}`;
+        contentDiv.innerHTML = comment_content;
+        tucaoItem.appendChild(contentDiv);
+
+        // 3. 投票区域（增大触摸点击区）
+        const voteDiv = document.createElement('div');
+        voteDiv.className = 'tucao-vote';
+        // 拆分span，增大点击区域
+        voteDiv.innerHTML = `<span>OO ${vote_positive}</span> <span>XX ${vote_negative}</span>`;
+        tucaoItem.appendChild(voteDiv);
+
+        // 渲染子评论
+        if (children.length) {
+            const childrenDiv = document.createElement('div');
+            childrenDiv.className = 'tucao-children';
+            childrenDiv.appendChild(renderCommentTree(children, hotTucaoIds));
+            tucaoItem.appendChild(childrenDiv);
+        }
+
+        return tucaoItem;
+    };
+
     // 递归渲染评论树（优化移动端DOM性能，减少重排）
     const renderCommentTree = (comments, hotTucaoIds) => {
         const fragment = document.createDocumentFragment(); // 减少DOM操作次数
         if (!comments.length) return fragment;
 
+        // 批量创建评论元素
         comments.forEach(comment => {
-            const {
-                comment_ID,
-                comment_author,
-                comment_date,
-                ip_location,
-                comment_content,
-                vote_positive,
-                vote_negative,
-                children = []
-            } = comment;
-
-            // 评论外层容器
-            const tucaoItem = document.createElement('div');
-            tucaoItem.className = 'tucao-item';
-
-            // 1. 元信息（作者、时间、IP）- 移动端适配
-            const metaDiv = document.createElement('div');
-            metaDiv.className = 'tucao-meta';
-            const ip = ip_location || '未知'; // 缩短IP占位符，节省空间
-            metaDiv.innerText = `${comment_author} | ${comment_date} | ${ip}`;
-            tucaoItem.appendChild(metaDiv);
-
-            // 2. 评论内容 - 热门评论增强样式
-            const contentDiv = document.createElement('div');
-            contentDiv.className = `tucao-content ${hotTucaoIds.has(comment_ID) ? 'tucao-hot' : ''}`;
-            contentDiv.innerHTML = comment_content;
-            tucaoItem.appendChild(contentDiv);
-
-            // 3. 投票区域（增大触摸点击区）
-            const voteDiv = document.createElement('div');
-            voteDiv.className = 'tucao-vote';
-            // 拆分span，增大点击区域
-            voteDiv.innerHTML = `<span>OO ${vote_positive}</span> <span>XX ${vote_negative}</span>`;
-            tucaoItem.appendChild(voteDiv);
-
-            // 渲染子评论
-            if (children.length) {
-                const childrenDiv = document.createElement('div');
-                childrenDiv.className = 'tucao-children';
-                childrenDiv.appendChild(renderCommentTree(children, hotTucaoIds));
-                tucaoItem.appendChild(childrenDiv);
-            }
-
-            fragment.appendChild(tucaoItem);
+            const commentElement = createCommentElement(comment, hotTucaoIds);
+            fragment.appendChild(commentElement);
         });
 
         return fragment;
+    };
+
+    // 显示错误信息
+    const showError = (container, message) => {
+        container.innerHTML = `<div class="tucao-null">${message}</div>`;
+    };
+
+    // 显示加载中状态
+    const showLoading = (container) => {
+        container.innerHTML = '<div class="tucao-null">加载评论中...</div>';
+    };
+
+    // 缓存对象，避免重复请求
+    const commentCache = new Map();
+
+    // 显示无评论提示
+    const showNoComments = (container) => {
+        container.innerHTML = '<div class="tucao-null">暂无评论~</div>';
     };
 
     // ==================== 核心优化3：核心逻辑增强（Via适配） ====================
@@ -167,7 +211,7 @@
     const initComment = async (retryCount = 0) => {
         const postId = getPostId();
         if (!postId) {
-            console.log('煎蛋网评论重构：未提取到有效帖子ID');
+            console.error('煎蛋网评论重构：未提取到有效帖子ID');
             return;
         }
 
@@ -176,16 +220,25 @@
 
         // 重试机制：Via页面加载慢，最多重试3次
         if (!targetContainer && retryCount < 3) {
+            console.log(`煎蛋网评论重构：未找到评论区容器，${3 - retryCount}秒后重试...`);
             setTimeout(() => initComment(retryCount + 1), 500);
             return;
         }
         if (!targetContainer) {
-            console.log('煎蛋网评论重构：未找到评论区容器');
+            console.error('煎蛋网评论重构：未找到评论区容器');
             return;
         }
 
         try {
-            targetContainer.innerHTML = '<div class="tucao-null">加载评论中...</div>';
+            showLoading(targetContainer);
+            
+            // 检查缓存
+            if (commentCache.has(postId)) {
+                console.log('煎蛋网评论重构：使用缓存的评论数据');
+                const cachedData = commentCache.get(postId);
+                renderComments(targetContainer, cachedData);
+                return;
+            }
             
             // 移动端请求超时处理（10秒），适配Via网络波动
             const controller = new AbortController();
@@ -201,46 +254,76 @@
             });
             clearTimeout(timeoutId);
 
-            if (!response.ok) throw new Error(`请求失败 [${response.status}]`);
-            const resData = await response.json();
-            if (resData.code !== 0) throw new Error('接口返回异常');
-
-            const { hot_tucao, tucao } = resData;
-            const hotTucaoIds = new Set(hot_tucao.map(item => item.comment_ID));
-            const commentMap = new Map();
-            const rootComments = [];
-
-            // 初始化评论映射表
-            tucao.forEach(comment => {
-                commentMap.set(comment.comment_ID, { ...comment, children: [] });
-            });
-
-            // 构建父子关系
-            tucao.forEach(comment => {
-                const parentId = getParentCommentId(comment.comment_content);
-                const currentComment = commentMap.get(comment.comment_ID);
-                if (parentId && commentMap.has(parentId)) {
-                    commentMap.get(parentId).children.push(currentComment);
-                } else {
-                    rootComments.push(currentComment);
-                }
-            });
-
-            // 渲染评论树
-            targetContainer.innerHTML = '';
-            const commentTree = renderCommentTree(rootComments, hotTucaoIds);
-            targetContainer.appendChild(commentTree);
-
-            // 无评论提示
-            if (!rootComments.length) {
-                targetContainer.innerHTML = '<div class="tucao-null">暂无评论~</div>';
+            if (!response.ok) {
+                const errorMsg = `请求失败 [${response.status}] - ${response.statusText}`;
+                console.error(`煎蛋网评论重构：${errorMsg}`);
+                throw new Error(errorMsg);
             }
+            
+            const resData = await response.json();
+            if (resData.code !== 0) {
+                const errorMsg = `接口返回异常 [${resData.code}]${resData.message ? ` - ${resData.message}` : ''}`;
+                console.error(`煎蛋网评论重构：${errorMsg}`);
+                throw new Error(errorMsg);
+            }
+
+            // 缓存数据
+            commentCache.set(postId, resData);
+            
+            // 渲染评论
+            renderComments(targetContainer, resData);
 
         } catch (error) {
             // 移动端友好的错误提示
-            const errorMsg = error.name === 'AbortError' ? '评论加载超时，请刷新' : `加载失败：${error.message}`;
-            targetContainer.innerHTML = `<div class="tucao-null">${errorMsg}</div>`;
-            console.error('煎蛋网评论重构失败：', error);
+            let errorMsg;
+            if (error.name === 'AbortError') {
+                errorMsg = '评论加载超时，请刷新页面重试';
+                console.error('煎蛋网评论重构：加载超时', error);
+            } else if (error.name === 'TypeError' && error.message.includes('fetch')) {
+                errorMsg = '网络连接失败，请检查网络设置';
+                console.error('煎蛋网评论重构：网络连接失败', error);
+            } else if (error.name === 'SyntaxError' && error.message.includes('JSON')) {
+                errorMsg = '数据解析失败，请刷新页面重试';
+                console.error('煎蛋网评论重构：数据解析失败', error);
+            } else {
+                errorMsg = `加载失败：${error.message}`;
+                console.error('煎蛋网评论重构失败：', error);
+            }
+            showError(targetContainer, errorMsg);
+        }
+    };
+
+    // 渲染评论
+    const renderComments = (container, resData) => {
+        const { hot_tucao, tucao } = resData;
+        const hotTucaoIds = new Set(hot_tucao.map(item => item.comment_ID));
+        const commentMap = new Map();
+        const rootComments = [];
+
+        // 初始化评论映射表
+        tucao.forEach(comment => {
+            commentMap.set(comment.comment_ID, { ...comment, children: [] });
+        });
+
+        // 构建父子关系
+        tucao.forEach(comment => {
+            const parentId = getParentCommentId(comment.comment_content);
+            const currentComment = commentMap.get(comment.comment_ID);
+            if (parentId && commentMap.has(parentId)) {
+                commentMap.get(parentId).children.push(currentComment);
+            } else {
+                rootComments.push(currentComment);
+            }
+        });
+
+        // 渲染评论树
+        container.innerHTML = '';
+        const commentTree = renderCommentTree(rootComments, hotTucaoIds);
+        container.appendChild(commentTree);
+
+        // 无评论提示
+        if (!rootComments.length) {
+            showNoComments(container);
         }
     };
 

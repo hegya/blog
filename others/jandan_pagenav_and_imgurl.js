@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         煎蛋网-翻页箭头+图片URL优化（跨端适配）
 // @namespace    https://jandan.net/
-// @version      1.0
+// @version      1.1
 // @description  煎蛋网帖子页左右加翻页箭头（ID±1），优化post-content内图片URL，适配Edge/Via浏览器
 // @author       自定义
 // @match        *://jandan.net/t/*
 // @grant        GM_addStyle
 // @license      MIT
-// @run-at       document-end
+// @run-at       document-body
 // @updateURL    https://github.com/hegya/blog/raw/refs/heads/main/others/jandan_pagenav_and_imgurl.js
 // @downloadURL  https://github.com/hegya/blog/raw/refs/heads/main/others/jandan_pagenav_and_imgurl.js
 // ==/UserScript==
@@ -35,7 +35,7 @@
         /* 翻页箭头容器 - 固定定位，覆盖全屏幕 */
         .page-nav-arrow {
             position: fixed;
-            top: 50%;
+            top: 70%;
             transform: translateY(-50%);
             width: 48px;
             height: 48px;
@@ -105,12 +105,10 @@
     const optimizeImageUrl = (url) => {
         if (!url) return url;
         
-        // 1. 替换域名：img.wangmoyu.com → img.toto.im
-        let newUrl = url.replace(/img\.wangmoyu\.com/g, 'img.toto.im');
-        // 2. http协议转为https（排除已为https的情况）
-        newUrl = newUrl.replace(/^http:\/\//g, 'https://');
-        // 3. 替换尺寸参数：mw600/mw1024/orj360 → large
-        newUrl = newUrl.replace(/(mw600|mw1024|orj360)/g, 'large');
+        // 1. http协议转为https（排除已为https的情况）
+        let newUrl = newUrl.replace(/^http:\/\//g, 'https://');
+        // 2. 替换尺寸参数：mw600/orj360 → large
+        newUrl = newUrl.replace(/(mw600|orj360)/g, 'large');
         
         return newUrl;
     };
@@ -168,15 +166,19 @@
     };
 
     // ==================== 3. 初始化逻辑（适配Edge/Via） ====================
-    const init = () => {
+    // 立即创建翻页箭头（不依赖图片加载）
+    const initNavArrows = () => {
         const currentId = getCurrentPostId();
         if (!currentId) {
             console.log('未提取到有效帖子ID，跳过翻页箭头创建');
         } else {
             createNavArrows(currentId);
         }
+    };
 
-        // 优化图片URL
+    // 图片优化逻辑（可以延迟执行）
+    const initImageOptimization = () => {
+        // 立即优化已有的图片
         optimizeAllImages();
 
         // 监听图片懒加载（适配部分页面动态加载图片的情况）
@@ -199,23 +201,26 @@
         }
     };
 
-    // 适配不同浏览器的加载时机（Via加载慢，增加延迟+重试）
-    const safeInit = () => {
-        // 延迟200ms执行，确保DOM完全渲染（适配Via）
-        setTimeout(() => {
-            init();
-            // 兜底：若首次执行未找到post-content，500ms后重试一次
-            if (!document.querySelector('.post-content')) {
-                setTimeout(optimizeAllImages, 500);
-            }
-        }, 200);
+    // 主初始化函数
+    const init = () => {
+        // 1. 立即创建翻页箭头（优先显示）
+        initNavArrows();
+        
+        // 2. 延迟执行图片优化（不阻塞翻页按钮显示）
+        setTimeout(initImageOptimization, 100);
     };
 
-    // 双重监听，确保执行
-    if (document.readyState === 'complete') {
-        safeInit();
-    } else {
-        document.addEventListener('DOMContentLoaded', safeInit);
-        window.addEventListener('load', safeInit);
-    }
+    // 适配不同浏览器的加载时机（Via加载慢，增加延迟+重试）
+    const safeInit = () => {
+        // 立即执行初始化，不延迟
+        init();
+        
+        // 兜底：若首次执行未找到post-content，500ms后重试图片优化
+        if (!document.querySelector('.post-content')) {
+            setTimeout(initImageOptimization, 500);
+        }
+    };
+
+    // 执行初始化
+    safeInit();
 })();

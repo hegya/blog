@@ -24,7 +24,7 @@
 
   - [中小学教材下载](./article/note-textbook-download.md)
   - 代数
-    - [公式](./article/study-algebra-formula.md)
+    - [公式](./article/study-geometry-formula.md)
     - [例题](./article/study-algebra-example.md)
   - 几何
     - [公式](./article/study-geometry-formula.md)

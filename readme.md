@@ -32,6 +32,7 @@
 
 - 文摘
 
+  - 20260713-[我没有敌人——我的最后陈述（刘晓波）](./article/digest-i-have-no-enemies.md)
   - 20251204-[论抗日（李承鹏）](./article/digest-kang-ri.md)
   - 20250105-[“总有一种力量让我们泪流满面”](https://chinadigitaltimes.net/chinese/362968.html)
   - 20240704-[2014~2024，仅仅十年（大象公会）](https://chinadigitaltimes.net/chinese/709422.html)
